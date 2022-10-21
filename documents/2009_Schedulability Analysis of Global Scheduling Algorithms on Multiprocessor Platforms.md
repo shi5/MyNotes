@@ -18,7 +18,8 @@
 
 ## 主要思想
 
-- 利用workload作为interference的上界来代替计算可调度充分条件
+- interference
+- 利用workload作为**interference**的上界来代替计算可调度充分条件
   $$
   \sum_{i \ne k}min(W_k(D_k), D_k-C_k+1) \lt m(D_k-C_k+1)
   $$
