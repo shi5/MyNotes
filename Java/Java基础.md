@@ -128,7 +128,22 @@
     2. 反射
   - 步骤：
     1. 将需要创建的对象的全类名和需要执行的方法定义在配置文件(.properties)中
-    2. 在程序中加载读取配置文件
+    2. 在程序中加载读取配置文件（使用**静态代码块**来来读取配置文件）
+
+        ```java
+        //1. 创建Properties集合类
+        Properties pro = new Properties();
+        //获取src路径下的文件的方式--->ClassLoader(类加载器)
+        ClassLoader classloader = JDBCUtils.class.getClassLoader();
+        URL res = classlaoder.getResource("Filepath"); //相对路径：./ = src/ 
+        String path = res.getPath();
+        //2. 加载文件
+        //pro.load(new FileReader("Filename"));
+        pro.load(new FileReader("path"));
+        //3. 获取数据，赋值
+        value = pro.getProperty("value");
+        ```
+
     3. 使用反射技术来加载类文件进内存
     4. 创建对象
     5. 执行方法
