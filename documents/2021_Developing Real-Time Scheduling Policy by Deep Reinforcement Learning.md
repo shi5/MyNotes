@@ -32,4 +32,8 @@
   - 采用的方法是 集中训练，分布运行？这也是多智能体合作学习的常用方法
 - Self-Cooperative Learning这一块没懂
 - 为什么选择G-EDF、EDF-BF和LSF作为baseline
-- 没有给出实验模型的具体参数
+  - 因为这些启发式算法可以应用于aperiodic tasks
+
+## 想法
+
+- 应用于periodic和sporadic的时候，固定时间段的任务数量是固定的，那么是不是可以更好的设计一下全局Q函数（比如加入一些启发式方法中一些概念作为参数

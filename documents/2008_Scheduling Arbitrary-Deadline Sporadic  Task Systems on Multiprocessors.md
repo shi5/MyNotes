@@ -2,7 +2,7 @@
 
 ## 研究对象概述
 
-- SPoradic， arbitrary-deadline
+- Sporadic， arbitrary-deadline
 - multiprocessors
   
 ## 主要思想
