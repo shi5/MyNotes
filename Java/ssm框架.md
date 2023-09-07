@@ -10,6 +10,44 @@
 
 - spring配置文件：applicationContext.xml
 
+### SSM文件框架
+
+- main
+  - java
+    - config：
+      - SpringConfig：
+      - JdbcConfig：
+        - DataSource
+        - PlatformTransactionManager
+      - MyBatisConfig：
+        - SqlSessionFactoryBean
+        - MapperScannerConfigurer
+      - ServletConfig：
+        - getRootConfigClasses:
+        - getServletConfigClasses:需要MVC配置类
+        - getServletMappings
+      - SpringMVCConfig
+      - SpringMVCSupport（可被SpringConfig替代，但侵入式较强）
+        - addResourceHandlers
+        - addInterceptors
+    - controller(web)
+      - code
+      - result
+      - ***controller***
+      - ProjectExceptionAdvice：@RestControllerAdvice
+      - interceptor
+    - domain(pojo)
+    - dao(mapper)
+    - service
+      - impl
+    - exception
+      - SystemException
+      - BusinessException
+  - resources
+    - static：存放网页资源
+    - templates
+- test
+
 ### IoC和DI
 
 - IoC（Inversion of control）：控制反转
@@ -26,7 +64,7 @@
 
 #### bean配置
 
-- resources/applicationContext.xml中配置bean
+- `resources/applicationContext.xml`中配置bean
   - `<bean>`标签定义，
   - id标识bean，使用容器可以通过id值（getbean）获取对应的bean，唯一
   - 可以通过name取别名，' '、','、;'分隔多个别名
@@ -149,6 +187,15 @@
   - 可从properties中加载
   - @propertySource("不支持使用通配符")
 
+#### 注入List
+
+``` java
+@Autowired
+List<Validator> validators;
+```
+
+- Spring会自动把所有类型为Validator的Bean装配为一个List注入进来，每新增一个Validator类型，就自动被Spring装配到Validators中
+
 #### 第三方bean管理
 
 - 在其他配置类中定义@Bean方法
@@ -163,6 +210,7 @@
 
 - @Component 和 @Bean 的区别是什么？
   - 在Configuration中声明@Bean方法
+  - 可以用@Bean方法创建第三方Bean，本质上@Bean方法就是工厂方法
   - ![](imgs/ssm框架/2023-07-04-17-54-40.png)
 
 ### 总结
@@ -183,7 +231,7 @@
 - 切入点：匹配连接点的式子
   - 可以是具体的一个方法，也可以是匹配的多个方法
   - 切入点一定是连接点
-- 通知：在切入点出执行的操作，也就是共性功能
+- 通知：在切入点处执行的操作，也就是共性功能
   - 功能最终以方法的形式呈现
 - 通知类：定义通知的类
 - 切面：描述通知与切入点的对应关系
@@ -298,44 +346,6 @@
 
 ![](imgs/ssm框架/2023-07-06-16-24-29.png)
 
-### 框架
-
-- main
-  - java
-    - config：
-      - SpringConfig：
-      - JdbcConfig：
-        - DataSource
-        - PlatformTransactionManager
-      - MyBatisConfig：
-        - SqlSessionFactoryBean
-        - MapperScannerConfigurer
-      - ServletConfig：
-        - getRootConfigClasses:
-        - getServletConfigClasses:需要MVC配置类
-        - getServletMappings
-      - SpringMVCConfig
-      - SpringMVCSupport（可被SpringConfig替代，但侵入式较强）
-        - addResourceHandlers
-        - addInterceptors
-    - controller
-      - code
-      - result
-      - ***controller
-      - ProjectExceptionAdvice：@RestControllerAdvice
-      - interceptor.***
-    - domain
-    - dao
-    - service
-      - impl
-    - exception
-      - SystemException
-      - BusinessException
-  - resources
-    - static：存放网页资源
-    - templates
-- test
-
 ### 表现层数据封装
 
 ```json
@@ -390,6 +400,8 @@
   - yml(主要，次高)
   - yaml
 
+- 配置文件的作用:修改SpringBoot自动配置的默认值(SpringBoot在底层都给我们自动配置好的默认值);
+
 ### yaml
 
 - yaml语法规则：![](imgs/ssm框架/2023-07-07-15-07-49.png)
@@ -418,6 +430,7 @@
 - Dao实现BaseMapper<>
 
 - lombok：jar包，帮助快速开发实体类
+  - @Data 注解：用于自动生成类的所有常规方法，例如 Getter、Setter、equals、hashCode 和 toString 等
 - 分页查询需要实现分页拦截器
 - Wrapper接口封装了复杂条件查询
   - 非空查询：null处理
