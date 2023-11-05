@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "f3b5b29d98a7cd96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法/快速幂.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e069fbac7fa756e3",
             "type": "leaf",
             "state": {
@@ -94,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "12306/Maven.md",
+                "file": "算法/快速幂.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -143,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "12306/Maven.md",
+                "file": "算法/快速幂.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "12306/Maven.md",
+                "file": "算法/快速幂.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12306/Maven.md"
+                "file": "算法/快速幂.md"
               }
             }
           },
@@ -221,12 +234,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "18d70748681c8645",
+  "active": "f3b5b29d98a7cd96",
   "lastOpenFiles": [
+    "算法/imgs/Pasted image 20231105113508.png",
+    "算法/imgs/Pasted image 20231105112257.png",
+    "算法/imgs",
+    "Java/Java基础.md",
+    "算法/快速幂.md",
+    "12306/Maven.md",
     "12306/未命名.md",
     "算法",
-    "12306/Maven.md",
-    "Java/Java基础.md",
     "12306/java/方法引用.md",
     "12306/java/多线程.md",
     "12306/java/ConcurrentHashMap（不全）.md",
@@ -254,7 +271,6 @@
     "MarkDown.md",
     "12306/springboot/SpringBoot多模块.md",
     "12306/新知识/MAVEN--聚合项目和父子模块关系.md",
-    "12306/springboot/SpringBoot Starter.md",
     "12306/springboot/imgs/Pasted image 20231026151231.png",
     "12306/springboot/imgs",
     "12306/springboot",
@@ -264,7 +280,6 @@
     "12306/新知识/imgs/Pasted image 20231025192700.png",
     "12306/新知识/imgs/Pasted image 20231025192506.png",
     "12306/新知识/imgs/Pasted image 20231025192345.png",
-    "12306/新知识/imgs/Pasted image 20231025192235.png",
     "12306/新知识/imgs",
     "12306/新知识",
     "未命名.canvas"

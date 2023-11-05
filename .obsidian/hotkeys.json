@@ -25,7 +25,8 @@
     }
   ],
   "graph:open": [],
-  "editor:insert-codeblock": [
+  "file-explorer:new-file-in-new-pane": [],
+  "editor:toggle-code": [
     {
       "modifiers": [
         "Alt",
@@ -33,6 +34,5 @@
       ],
       "key": "Q"
     }
-  ],
-  "file-explorer:new-file-in-new-pane": []
+  ]
 }
