@@ -2,7 +2,7 @@
 
 ## 一些库
 
-- import matplotlib.pyplot as plt #画图的库
+- import matplotlib.pyplot as plt # 画图的库
 - from tqdm import tqdm  # tqdm是显示循环进度条的库
 
 >强化学习算法有两个重要的评价指标：一个是算法收敛后的策略在初始状态下的期望回报，另一个是样本复杂度，即算法达到收敛结果需要在真实环境中采样的样本数量

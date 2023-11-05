@@ -572,8 +572,8 @@
 
 - 分模块开发
 - 依赖传递
-  - 可选依赖：`<Optional>`，隐藏当前工程所依赖的资源
-  - 排除依赖：`exclusion>`
+  - 可选依赖：`<Optional>` ，隐藏当前工程所依赖的资源
+  - 排除依赖：`<exclusion>`
 
 - 聚合与继承（保证包版本统一）
   - 设计型模块
@@ -606,7 +606,7 @@
 - 私服：Nexus
   - 私服配置：maven本地仓库`setting.xml`进行配置，pom文件修改`<distributionManagement>
 
-### MyBatis
+## MyBatis
 
 - 核心配置文件
 - sql映射文件

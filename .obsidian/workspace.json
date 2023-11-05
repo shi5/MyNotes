@@ -1,0 +1,272 @@
+{
+  "main": {
+    "id": "921947fd4c53e16c",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd4551e7044aba67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "507f131a0f84cc29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/Java基础.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e069fbac7fa756e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "12306/Maven.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3da38ac2655360a6",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae520e35dc14f0b5",
+        "type": "tabs",
+        "dimension": 69.03846153846153,
+        "children": [
+          {
+            "id": "bb48c238613244e7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "840c4acc89040a9f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1089baa8c177ca86",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "0caedac4d6a4f85c",
+        "type": "tabs",
+        "dimension": 30.961538461538463,
+        "children": [
+          {
+            "id": "a923b0959aabb052",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "12306/Maven.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1.000000000000001,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "14f74f2e55b92ac3",
+    "type": "split",
+    "children": [
+      {
+        "id": "7bf8d60d9b821731",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b82866012d8a0cb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "12306/Maven.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "e78c3a48b876614a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "12306/Maven.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6c2c00610cf15b2e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "18d70748681c8645",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "12306/Maven.md"
+              }
+            }
+          },
+          {
+            "id": "3410dfdf1846ba6f",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "7f467bcaed702987",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 320.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "18d70748681c8645",
+  "lastOpenFiles": [
+    "12306/未命名.md",
+    "算法",
+    "12306/Maven.md",
+    "Java/Java基础.md",
+    "12306/java/方法引用.md",
+    "12306/java/多线程.md",
+    "12306/java/ConcurrentHashMap（不全）.md",
+    "12306/java/JAVA内存模型.md",
+    "12306/java/不清楚的问题.md",
+    "{{title}}/死锁.md",
+    "{{title}}",
+    "12306/java/java.md",
+    "12306/数据库.md",
+    "12306/新知识/分库分表技术.md",
+    "12306/新知识/单例模式.md",
+    "12306/java/imgs/Pasted image 20231101200841.png",
+    "12306/java/imgs/Pasted image 20231031154233.png",
+    "12306/java/imgs",
+    "12306/java",
+    "12306/新知识/imgs/Pasted image 20231031150037.png",
+    "12306/新知识/卫语句.md",
+    "leetcode.md",
+    "12306/idea可能存在的问题.md",
+    "Java/微服务.md",
+    "Java/web.md",
+    "Java/ssm框架.md",
+    "Java/JavaWeb.md",
+    "Deep Learning.md",
+    "MarkDown.md",
+    "12306/springboot/SpringBoot多模块.md",
+    "12306/新知识/MAVEN--聚合项目和父子模块关系.md",
+    "12306/springboot/SpringBoot Starter.md",
+    "12306/springboot/imgs/Pasted image 20231026151231.png",
+    "12306/springboot/imgs",
+    "12306/springboot",
+    "12306/imgs/Pasted image 20231025195552.png",
+    "12306/imgs",
+    "12306/新知识/imgs/Pasted image 20231025193313.png",
+    "12306/新知识/imgs/Pasted image 20231025192700.png",
+    "12306/新知识/imgs/Pasted image 20231025192506.png",
+    "12306/新知识/imgs/Pasted image 20231025192345.png",
+    "12306/新知识/imgs/Pasted image 20231025192235.png",
+    "12306/新知识/imgs",
+    "12306/新知识",
+    "未命名.canvas"
+  ]
+}

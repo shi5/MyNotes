@@ -402,6 +402,11 @@ List<Validator> validators;
 
 - 配置文件的作用:修改SpringBoot自动配置的默认值(SpringBoot在底层都给我们自动配置好的默认值);
 
+### 创建方式
+
+1. 在线创建：<https://start.spring.io/>
+2. 
+
 ### yaml
 
 - yaml语法规则：![](imgs/ssm框架/2023-07-07-15-07-49.png)
