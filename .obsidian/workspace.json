@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cd4551e7044aba67",
+        "id": "8008af415c71cb5d",
         "type": "tabs",
         "children": [
           {
-            "id": "507f131a0f84cc29",
+            "id": "879afc920db16be3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Java基础.md",
+                "file": "Java/深入java/多线程.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,25 +21,12 @@
             }
           },
           {
-            "id": "f3b5b29d98a7cd96",
+            "id": "4ab21693ee7518cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documents/实时调度.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e069fbac7fa756e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "12306/Maven.md",
+                "file": "Java/深入java/函数式接口.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -107,7 +94,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Java/Java基础.md",
+                "file": "Java/深入java/函数式接口.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -156,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Java基础.md",
+                "file": "Java/深入java/函数式接口.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Java基础.md",
+                "file": "Java/深入java/函数式接口.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Java基础.md"
+                "file": "Java/深入java/函数式接口.md"
               }
             }
           },
@@ -234,31 +221,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bb48c238613244e7",
+  "active": "4ab21693ee7518cb",
   "lastOpenFiles": [
+    "Java/深入java/多线程.md",
+    "Java/深入java/函数式接口.md",
+    "Java/深入java/方法引用.md",
+    "Java/深入java/ConcurrentHashMap（不全）.md",
+    "Java/深入java/JAVA内存模型.md",
+    "Java/Java基础.md",
+    "Java/深入java/不清楚的问题.md",
     "算法/快速幂.md",
     "算法/imgs/Pasted image 20231105113508.png",
     "算法/imgs/Pasted image 20231105112257.png",
     "算法/imgs",
-    "Java/Java基础.md",
     "12306/Maven.md",
     "12306/未命名.md",
     "算法",
-    "12306/java/方法引用.md",
-    "12306/java/多线程.md",
-    "12306/java/ConcurrentHashMap（不全）.md",
-    "12306/java/JAVA内存模型.md",
-    "12306/java/不清楚的问题.md",
     "{{title}}/死锁.md",
     "{{title}}",
     "12306/java/java.md",
     "12306/数据库.md",
     "12306/新知识/分库分表技术.md",
     "12306/新知识/单例模式.md",
-    "12306/java/imgs/Pasted image 20231101200841.png",
-    "12306/java/imgs/Pasted image 20231031154233.png",
-    "12306/java/imgs",
-    "12306/java",
+    "Java/深入java/imgs/Pasted image 20231101200841.png",
+    "Java/深入java/imgs/Pasted image 20231031154233.png",
+    "Java/深入java/imgs",
+    "Java/深入java",
     "12306/新知识/imgs/Pasted image 20231031150037.png",
     "12306/新知识/卫语句.md",
     "leetcode.md",
