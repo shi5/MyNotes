@@ -1,7 +1,6 @@
 ---
 date created: 2023-11-02 10:36
 ---
-
 # JAVA
 
 ## 常见问题
@@ -16,7 +15,7 @@ date created: 2023-11-02 10:36
 				1. 升序：`List.sort(list)`或者`list.sort()`
 				2. 降序：`List.sort(list, Comparator)`
 		3. 对于一个数组，如何获取其排序后的坐标
-				创建一个index数组，使用comparator排序
+			创建一个index数组，使用comparator排序
 
 3. Java取模可能出现负数，不想出现负数应该怎么处理
 		1. 加上一个模数
