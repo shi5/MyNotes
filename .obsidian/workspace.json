@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Java基础.md",
+                "file": "Java/深入java/函数式接口.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -120,7 +120,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Java/Java基础.md",
+                "file": "Java/深入java/函数式接口.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -169,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/Java基础.md",
+                "file": "Java/深入java/函数式接口.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/Java基础.md",
+                "file": "Java/深入java/函数式接口.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/Java基础.md"
+                "file": "Java/深入java/函数式接口.md"
               }
             }
           },
@@ -249,14 +249,14 @@
   },
   "active": "502496c46f6f1e15",
   "lastOpenFiles": [
+    "Java/深入java/Java Stream.md",
+    "Java/Java基础.md",
     "Java/深入java/Java Optional.md",
     "Java/深入java/函数式接口.md",
-    "Java/深入java/Java Stream.md",
     "Java/深入java/多线程.md",
     "Java/深入java/方法引用.md",
     "Java/深入java/ConcurrentHashMap（不全）.md",
     "Java/深入java/JAVA内存模型.md",
-    "Java/Java基础.md",
     "Java/深入java/不清楚的问题.md",
     "算法/快速幂.md",
     "算法/imgs/Pasted image 20231105113508.png",
