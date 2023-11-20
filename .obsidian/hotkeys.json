@@ -34,5 +34,13 @@
       ],
       "key": "Q"
     }
+  ],
+  "editor:toggle-inline-math": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Q"
+    }
   ]
 }
