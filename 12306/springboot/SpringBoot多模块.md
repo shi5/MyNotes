@@ -4,7 +4,7 @@
 	- 
 2. 构建子module ：右键springboot项目创建module
 3. 建立父子module依赖：
-	1. 修改parent项目packaging
+	1. 修改parent项目packaging属性为`pom`
 
 		```xml
 		<packaging>pom</packaging>
