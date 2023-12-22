@@ -9,6 +9,9 @@ date created: 2023-10-25 16:10
 - torch.gather()
 	- 从原tensor中获取指定dim和指定index的数据
 
+### tensor
+
+用n个固定的标量来作为下标，会使得结果比原始数据降低n个维数。
 
 ## numpy
 
