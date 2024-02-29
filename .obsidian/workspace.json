@@ -91,7 +91,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/深入java/函数式接口.md",
+                "file": "Java/深入java/Java Stream.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -159,7 +159,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Java/深入java/函数式接口.md",
+                "file": "Java/深入java/Java Stream.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -208,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/深入java/函数式接口.md",
+                "file": "Java/深入java/Java Stream.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/深入java/函数式接口.md",
+                "file": "Java/深入java/Java Stream.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/深入java/函数式接口.md"
+                "file": "Java/深入java/Java Stream.md"
               }
             }
           },
@@ -288,6 +288,7 @@
   },
   "active": "5f637ddd4c7c11c7",
   "lastOpenFiles": [
+    "Java/深入java/函数式接口.md",
     "Java/深入java/JMM(Java Memory Model).md",
     "Java/深入java/Java Optional.md",
     "Java/深入java/Java Stream.md",
@@ -313,7 +314,6 @@
     "12306/新知识/策略模式.md",
     "12306/新知识/卫语句.md",
     "12306/idea可能存在的问题.md",
-    "12306/springboot/SpringBoot多模块.md",
     "算法/imgs/Pasted image 20231120105948.png",
     "算法/imgs/Pasted image 20231105113508.png",
     "算法/imgs/Pasted image 20231105112257.png",
