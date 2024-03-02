@@ -91,15 +91,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/深入java/Java Stream.md",
+                "file": "Java/ssm框架.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "f09b439d0b76d7f1",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -129,7 +139,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "构造器注入",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,7 +156,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "0caedac4d6a4f85c",
@@ -159,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Java/深入java/Java Stream.md",
+                "file": "Java/ssm框架.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -208,7 +219,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/深入java/Java Stream.md",
+                "file": "Java/ssm框架.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +236,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/深入java/Java Stream.md",
+                "file": "Java/ssm框架.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,7 +259,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/深入java/Java Stream.md"
+                "file": "Java/ssm框架.md"
               }
             }
           },
@@ -286,17 +297,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5f637ddd4c7c11c7",
+  "active": "f09b439d0b76d7f1",
   "lastOpenFiles": [
+    "Java/JavaWeb.md",
+    "Java/Java基础.md",
+    "Java/深入java/Java Stream.md",
     "Java/深入java/函数式接口.md",
     "Java/深入java/JMM(Java Memory Model).md",
     "Java/深入java/Java Optional.md",
-    "Java/深入java/Java Stream.md",
     "Java/深入java/ConcurrentHashMap（不全）.md",
     "Java/深入java/不清楚的问题.md",
-    "Java/Java基础.md",
     "Java/深入java/方法引用.md",
-    "Java/JavaWeb.md",
     "leetcode.md",
     "Deep Learning.md",
     "MarkDown.md",
