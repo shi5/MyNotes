@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12306/数据库.md",
+                "file": "短链接/用户注册/用户名创建唯一索引.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -80,7 +80,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "12306/数据库.md",
+                "file": "短链接/用户注册/用户名创建唯一索引.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "12306/数据库.md",
+                "file": "短链接/用户注册/用户名创建唯一索引.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "12306/数据库.md",
+                "file": "短链接/用户注册/用户名创建唯一索引.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12306/数据库.md"
+                "file": "短链接/用户注册/用户名创建唯一索引.md"
               }
             }
           },
@@ -209,7 +209,9 @@
   },
   "active": "17edb95e42ca2412",
   "lastOpenFiles": [
-    "用户名创建唯一索引.md",
+    "12306/新知识/分库分表技术.md",
+    "12306/数据库.md",
+    "短链接/用户注册/用户名创建唯一索引.md",
     "短链接/用户注册",
     "短链接",
     "Java/深入java/Java Stream.md",
@@ -235,7 +237,6 @@
     "12306/Maven.md",
     "12306/新知识/MAVEN--聚合项目和父子模块关系.md",
     "12306/新知识/单例模式.md",
-    "12306/新知识/策略模式.md",
     "算法/imgs/Pasted image 20231120105948.png",
     "算法/imgs/Pasted image 20231105113508.png",
     "算法/imgs/Pasted image 20231105112257.png",
