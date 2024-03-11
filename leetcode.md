@@ -16,4 +16,4 @@
 
 ## 链表
 
-- 链表排序：归并排序——[148. 排序链表](https://leetcode.cn/problems/sort-list/)
+- 链表排序：归并排序——[148. 排序链表](https://leetcode.cn/problems/sort-list/) || 转数组后排序再转回链表
