@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "leetcode.md",
+                "file": "Deep Learning.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "717c8377e7fff2b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数据库/分库分表技术.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +94,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "leetcode.md",
+                "file": "数据库/分库分表技术.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode.md",
+                "file": "数据库/分库分表技术.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "leetcode.md",
+                "file": "数据库/分库分表技术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode.md"
+                "file": "数据库/分库分表技术.md"
               }
             }
           },
@@ -207,15 +221,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "17edb95e42ca2412",
+  "active": "717c8377e7fff2b2",
   "lastOpenFiles": [
-    "torch&numpy.md",
     "Deep Learning.md",
-    "leetcode.md",
+    "数据库/分库分表技术.md",
+    "数据库/读扩散.md",
+    "12306/Maven.md",
+    "12306/idea可能存在的问题.md",
+    "12306/数据库.md",
+    "数据库.md",
+    "未命名",
+    "数据库",
     "MarkDown.md",
-    "QT.md",
     "Reinforcement Learning.md",
+    "QT.md",
     "RPC框架.md",
+    "leetcode.md",
+    "torch&numpy.md",
     "12306/新知识/布隆过滤器.md",
     "Java/ssm框架.md",
     "Java/web.md",
@@ -229,14 +251,8 @@
     "Java/深入java/方法引用.md",
     "Java/深入java/不清楚的问题.md",
     "Java/深入java/并发编程.md",
-    "短链接/用户注册/用户名创建唯一索引.md",
-    "12306/新知识/分库分表技术.md",
-    "12306/数据库.md",
     "短链接/用户注册",
     "短链接",
-    "算法/差分数组.md",
-    "documents/论文汇总.md",
-    "12306/Maven.md",
     "算法/imgs/Pasted image 20231120105948.png",
     "算法/imgs/Pasted image 20231105113508.png",
     "算法/imgs/Pasted image 20231105112257.png",
@@ -250,9 +266,7 @@
     "12306/新知识/imgs/Pasted image 20231031150037.png",
     "12306/springboot/imgs/Pasted image 20231026151231.png",
     "12306/springboot/imgs",
-    "12306/springboot",
     "12306/imgs/Pasted image 20231025195552.png",
-    "12306/imgs",
     "12306/新知识/imgs/Pasted image 20231025193313.png",
     "12306/新知识/imgs/Pasted image 20231025192700.png",
     "未命名.canvas"
