@@ -48,9 +48,19 @@ Java 语言既具有编译型语言的特征，也具有解释型语言的特征
 
 如果重写 `equals()` 时没有重写 `hashCode()` 方法的话就可能会导致 `equals` 方法判断是相等的两个对象，`hashCode` 值却不相等。
 
-## String类型为何不可变
+## String类型
+
+### String类型为何不可变
 
 - 保存字符串的数组被 `final` 修饰且为私有的，并且`String` 类没有提供/暴露修改这个字符串的方法。
 - `String` 类被 `final` 修饰导致其不能被继承，进而避免了子类破坏 `String` 不可变。
 
 > 在 Java 9 之后，`String`、`StringBuilder` 与 `StringBuffer` 的实现改用 `byte` 数组存储字符串。
+
+### String通过 `+`拼接原理
+
+字符串对象通过“+”的字符串拼接方式，实际上是通过 `StringBuilder` 调用 `append()` 方法实现的，拼接完成之后调用 `toString()` 得到一个 `String` 对象 。
+
+### 字符串常量池
+
+**字符串常量池** 是 JVM 为了提升性能和减少内存消耗针对字符串（String 类）专门开辟的一块区域，主要目的是为了避免字符串的重复创建。
