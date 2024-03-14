@@ -8,46 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "17edb95e42ca2412",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deep Learning.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "717c8377e7fff2b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/ssm框架.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0581460d26061c0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "八股/Java相关.md",
+                "file": "八股/java基础.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +80,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "八股/Java相关.md",
+                "file": "八股/java基础.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -156,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "八股/Java相关.md",
+                "file": "八股/java基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "八股/Java相关.md",
+                "file": "八股/java基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股/Java相关.md"
+                "file": "八股/java基础.md"
               }
             }
           },
@@ -236,14 +209,17 @@
   },
   "active": "0581460d26061c0c",
   "lastOpenFiles": [
-    "八股/Java相关.md",
+    "八股/imgs/Pasted image 20240314171732.png",
+    "八股/imgs/Pasted image 20240314171722.png",
+    "八股/imgs/Pasted image 20240314171711.png",
+    "MarkDown.md",
+    "八股/java基础.md",
     "数据库/数据库基础.md",
     "数据库/缓存穿透、缓存击穿、缓存雪崩.md",
     "八股/imgs/Pasted image 20240314123221.png",
     "八股/imgs/Pasted image 20240314122731.png",
     "八股/imgs",
     "leetcode.md",
-    "MarkDown.md",
     "Java/ssm框架.md",
     "Deep Learning.md",
     "八股",
@@ -279,8 +255,6 @@
     "Java/深入java/imgs",
     "Java/深入java",
     "12306/新知识/imgs/Pasted image 20231031150037.png",
-    "12306/springboot/imgs/Pasted image 20231026151231.png",
-    "12306/imgs/Pasted image 20231025195552.png",
     "未命名.canvas"
   ]
 }
