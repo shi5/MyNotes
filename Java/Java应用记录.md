@@ -162,7 +162,7 @@ date created: 2023-11-02 10:36
 		1. 可以在程序运行过程中，操作这些对象
 		2. 可以解耦，提高程序的可拓展性
 
-![JavaClass](pics/JavaClass.png "javaclass")
+![JavaClass](JavaClass.png "javaclass")
 
 ### Class对象的获取方式
 

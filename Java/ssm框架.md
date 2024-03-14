@@ -6,7 +6,7 @@
   - core container：核心容器
   - AOP：面向切面编程（在不修改原始程序的基础上，增强功能
   - Aspects：AOP思想实现（spring实现了AOP，aspects也实现了AOP思想，spring将其收录
-![](imgs/ssm框架/2023-06-29-10-47-53.png)
+![](2023-06-29-10-47-53.png)
 
 - spring配置文件：applicationContext.xml
 
@@ -211,11 +211,11 @@ List<Validator> validators;
 - @Component 和 @Bean 的区别是什么？
   - 在Configuration中声明@Bean方法
   - 可以用@Bean方法创建第三方Bean，本质上@Bean方法就是工厂方法
-  - ![](imgs/ssm框架/2023-07-04-17-54-40.png)
+  - ![](2023-07-04-17-54-40.png)
 
 ### 总结
 
-![](imgs/ssm框架/2023-07-03-17-43-04.png)
+![](2023-07-03-17-43-04.png)
 
 ## Spring整合MyBatis
 
@@ -252,7 +252,7 @@ List<Validator> validators;
 
 - 切入点表达式标准格式：动作关键字（访问修饰符  返回值  包名.类名.方法名(参数)  异常名）
 - 可以使用通配符
-- 书写技巧：![](imgs/ssm框架/2023-07-04-15-00-54.png)
+- 书写技巧：![](2023-07-04-15-00-54.png)
 
 ### AOP通知类型
 
@@ -302,7 +302,7 @@ List<Validator> validators;
 - 可以配置回滚的异常
 
 - 可以设置事务的开启：
-  - ![](imgs/ssm框架/2023-07-04-17-48-02.png)
+  - ![](2023-07-04-17-48-02.png)
 
 ## SpringMVC
 
@@ -338,13 +338,13 @@ List<Validator> validators;
 ### REST风格
 
 - REST（Representational State Transfer）：表现形式状态转换
-- ![](imgs/ssm框架/2023-07-05-15-58-07.png)
+- ![](2023-07-05-15-58-07.png)
 - 在@RequestMapping中定义method属性，参数通过指定@PathVariable,请求路径中也需修改(user/{id})
   - 可以进一步简化
 
 ## SSM整合
 
-![](imgs/ssm框架/2023-07-06-16-24-29.png)
+![](2023-07-06-16-24-29.png)
 
 ### 表现层数据封装
 
@@ -389,7 +389,7 @@ List<Validator> validators;
   - ModelAndView：SpringMVC页面跳转的相关数据
   - exception
 
-- 多拦截器执行顺序：![](imgs/ssm框架/2023-07-06-19-28-36.png)
+- 多拦截器执行顺序：![](2023-07-06-19-28-36.png)
 
 ## SpringBoot
 
@@ -409,7 +409,7 @@ List<Validator> validators;
 
 ### yaml
 
-- yaml语法规则：![](imgs/ssm框架/2023-07-07-15-07-49.png)
+- yaml语法规则：![](2023-07-07-15-07-49.png)
 
 - 读取配置信息
   - 使用@value读取单个数据
@@ -428,7 +428,7 @@ List<Validator> validators;
 
 ### 配置文件分类
 
-![](imgs/ssm框架/image.png.png)
+![](image.png.png)
 
 ## MyBatisPlus
 

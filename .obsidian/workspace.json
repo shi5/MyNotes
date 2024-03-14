@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "806a7b6837a39fc9",
+        "id": "4c940102c7704685",
         "type": "tabs",
         "children": [
           {
-            "id": "0581460d26061c0c",
+            "id": "268532e416128ef2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "八股/java基础.md",
+                "file": "八股/Java面试八股/Java动态代理.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ba70cdc92e1a080",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "八股/Java面试八股/Java动态代理.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -32,7 +46,7 @@
       {
         "id": "ae520e35dc14f0b5",
         "type": "tabs",
-        "dimension": 69.03846153846153,
+        "dimension": 80.76923076923077,
         "children": [
           {
             "id": "bb48c238613244e7",
@@ -50,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "拦截器",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +86,7 @@
       {
         "id": "0caedac4d6a4f85c",
         "type": "tabs",
-        "dimension": 30.961538461538463,
+        "dimension": 19.230769230769234,
         "children": [
           {
             "id": "a923b0959aabb052",
@@ -80,7 +94,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "八股/java基础.md",
+                "file": "八股/Java面试八股/Java动态代理.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "八股/java基础.md",
+                "file": "八股/Java面试八股/Java动态代理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "八股/java基础.md",
+                "file": "八股/Java面试八股/Java动态代理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股/java基础.md"
+                "file": "八股/Java面试八股/Java动态代理.md"
               }
             }
           },
@@ -207,12 +221,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0581460d26061c0c",
+  "active": "1ba70cdc92e1a080",
   "lastOpenFiles": [
+    "八股/Java面试八股/java基础.md",
+    "八股/Java面试八股/Java动态代理.md",
+    "八股/未命名.md",
+    "八股/Java面试八股",
+    "Java/ssm框架.md",
+    "Java/web.md",
+    "Java/JavaWeb.md",
+    "Java/Java应用记录.md",
     "八股/imgs/Pasted image 20240314200618.png",
     "八股/imgs/Pasted image 20240314200613.png",
-    "Java/Java基础.md",
-    "八股/java基础.md",
     "八股/imgs/Pasted image 20240314171732.png",
     "八股/imgs/Pasted image 20240314171722.png",
     "八股/imgs/Pasted image 20240314171711.png",
@@ -223,7 +243,6 @@
     "八股/imgs/Pasted image 20240314122731.png",
     "八股/imgs",
     "leetcode.md",
-    "Java/ssm框架.md",
     "Deep Learning.md",
     "八股",
     "数据库/分库分表技术.md",
@@ -238,12 +257,8 @@
     "RPC框架.md",
     "torch&numpy.md",
     "12306/新知识/布隆过滤器.md",
-    "Java/web.md",
-    "Java/JavaWeb.md",
     "Java/深入java/JMM(Java Memory Model).md",
     "Java/深入java/Java Stream.md",
-    "Java/深入java/Java Optional.md",
-    "Java/深入java/ConcurrentHashMap（不全）.md",
     "短链接/用户注册",
     "短链接",
     "算法/imgs/Pasted image 20231120105948.png",
@@ -252,9 +267,7 @@
     "算法/imgs",
     "算法",
     "{{title}}",
-    "Java/深入java/imgs/Pasted image 20231101200841.png",
     "Java/深入java/imgs",
-    "Java/深入java",
     "未命名.canvas"
   ]
 }
