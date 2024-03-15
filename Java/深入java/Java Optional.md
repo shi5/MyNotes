@@ -83,7 +83,7 @@ System.out.println(name); // 输出：沉默王二
 
 ### 过滤值
 
-`filter()`用于过滤，方法的参数类型为[[函数式接口#Predicate]]，也就是说可以将一个 Lambda 表达式传递给该方法作为条件，如果表达式的结果为 false，则返回一个 EMPTY 的 Optional 对象，否则返回过滤后的 Optional 对象。
+`filter()`用于过滤，方法的参数类型为[[函数式接口#Predicate|Predicate]]，也就是说可以将一个 Lambda 表达式传递给该方法作为条件，如果表达式的结果为 false，则返回一个 EMPTY 的 Optional 对象，否则返回过滤后的 Optional 对象。
 
 ### 转换值
 
