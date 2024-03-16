@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "4c940102c7704685",
+        "id": "5dfbaefe08a3bbc8",
         "type": "tabs",
         "children": [
           {
-            "id": "268532e416128ef2",
+            "id": "a97938051b9fc4df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "八股/Java面试八股/Java动态代理.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ba70cdc92e1a080",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/深入java/Java Optional.md",
+                "file": "八股/常用库/Lombok.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +80,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Java/深入java/Java Optional.md",
+                "file": "八股/常用库/Lombok.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -143,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/深入java/Java Optional.md",
+                "file": "八股/常用库/Lombok.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/深入java/Java Optional.md",
+                "file": "八股/常用库/Lombok.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/深入java/Java Optional.md"
+                "file": "八股/常用库/Lombok.md"
               }
             }
           },
@@ -221,12 +207,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1ba70cdc92e1a080",
+  "active": "a97938051b9fc4df",
   "lastOpenFiles": [
+    "八股/未命名 1.md",
+    "八股/常用库/Lombok.md",
+    "八股/常用库",
+    "RPC框架.md",
+    "Java/深入java/Java Optional.md",
     "Java/ssm框架.md",
     "八股/Java面试八股/Java动态代理.md",
     "八股/Java面试八股/java基础.md",
-    "八股/未命名.md",
     "八股/Java面试八股",
     "Java/web.md",
     "Java/JavaWeb.md",
@@ -254,11 +244,9 @@
     "数据库",
     "Reinforcement Learning.md",
     "QT.md",
-    "RPC框架.md",
     "torch&numpy.md",
     "12306/新知识/布隆过滤器.md",
     "Java/深入java/JMM(Java Memory Model).md",
-    "Java/深入java/Java Stream.md",
     "短链接/用户注册",
     "短链接",
     "算法/imgs/Pasted image 20231120105948.png",
@@ -267,7 +255,6 @@
     "算法/imgs",
     "算法",
     "{{title}}",
-    "Java/深入java/imgs",
     "未命名.canvas"
   ]
 }
