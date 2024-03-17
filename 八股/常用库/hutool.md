@@ -7,3 +7,5 @@
 ### isBlank(str)
 
 使用StrUtil.isBlank()方法，当字符串为null、空字符串("")或只包含空白字符时，该方法返回true，否则返回false。
+
+## BeanUtil

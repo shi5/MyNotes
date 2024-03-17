@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +93,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "八股/双重检查锁.md",
+                "file": "八股/常用库/hutool.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -143,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "八股/双重检查锁.md",
+                "file": "八股/常用库/hutool.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "八股/双重检查锁.md",
+                "file": "八股/常用库/hutool.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股/双重检查锁.md"
+                "file": "八股/常用库/hutool.md"
               }
             }
           },
@@ -221,10 +220,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bb48c238613244e7",
+  "active": "a97938051b9fc4df",
   "lastOpenFiles": [
-    "八股/常用库/hutool.md",
     "八股/双重检查锁.md",
+    "八股/常用库/hutool.md",
     "八股/常用库/Lombok.md",
     "八股/未命名 1.md",
     "八股/常用库",
