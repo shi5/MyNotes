@@ -72,10 +72,17 @@ Java 语言既具有编译型语言的特征，也具有解释型语言的特征
 常量折叠会把常量表达式的值求出来作为常量嵌在最终生成的代码中，这是 Javac 编译器会对源代码做的极少量优化措施之一(代码优化几乎都在即时编译器中进行)。
 
 ## SPI
+> [Java SPI 机制详解 | JavaGuide](https://javaguide.cn/java/basis/spi.html)
 
 SPI 即 Service Provider Interface ，字面意思就是：“服务提供者的接口”，可以理解为：专门提供给服务提供者或者扩展框架功能的开发者去使用的一个接口。
 
 ![[Pasted image 20240314200618.png]]
+
+###  ServiceLoader
+
+想要使用 Java 的 SPI 机制是需要依赖 `ServiceLoader` 来实现的，JDK 官方给的注释：**一种加载服务实现的工具。**
+
+
 
 ## 序列化与但序列化
 
@@ -122,4 +129,43 @@ Java IO 流的 40 多个类都是从如下 4 个抽象类基类中派生出来�
 - 字符流是由 Java 虚拟机将字节转换得到的，这个过程还算是比较耗时；
 - 如果我们不知道编码类型的话，使用字节流的过程中很容易出现乱码问题。
 
-## [[Java应用记录#反射：框架设计的灵魂|反射]]
+## 反射
+
+[[Java应用记录#反射：框架设计的灵魂]]
+
+## BigDecimal 
+
+> [BigDecimal 详解 | JavaGuide](https://javaguide.cn/java/basis/bigdecimal.html)
+
+**浮点数 `float` 或 `double` 运算的时候会有精度丢失的风险**，为了避免精度丢失，可以使用 `BigDecimal` 来进行浮点数的运算。
+
+通常情况下，大部分需要浮点数精确运算结果的业务场景（比如涉及到钱的场景）都是通过 `BigDecimal` 来做的。
+
+`BigDecimal` 的实现利用到了 `BigInteger` （用来操作大整数）, 所不同的是 `BigDecimal` 加入了小数位的概念。
+
+### BigDecimal常见方法
+
+#### 创建
+
+在使用 `BigDecimal` 时，为了防止精度丢失，推荐使用它的`BigDecimal(String val)`构造方法或者 `BigDecimal.valueOf(double val)` 静态方法来创建对象。
+
+> `BigDecimal(double val)`的方式存在精度损失风险
+
+#### 加减乘除
+
+- 加：`add`
+- 减：`subtract` 
+- 乘：`multiply` 
+- 除：`divide` 
+
+>在使用 `divide` 方法的时候尽量使用 3 个参数版本，并且`RoundingMode` 不要选择 `UNNECESSARY`，否则很可能会遇到 `ArithmeticException`（无法除尽出现无限循环小数的时候），其中 `scale` 表示要保留几位小数，`roundingMode` 代表保留规则。
+
+#### 大小比较
+
+`a.compareTo(b)` : 返回 -1 表示 `a` 小于 `b`，0 表示 `a` 等于 `b` ， 1 表示 `a` 大于 `b`。
+
+> `BigDecimal` 使用 `equals()` 方法进行等值比较会出现问题，这是因为 `equals()` 方法不仅仅会比较值的大小（value）还会比较精度（scale），而 `compareTo()` 方法比较的时候会忽略精度。
+
+#### 保留小数位数
+
+通过 `setScale`方法设置保留几位小数以及保留规则。
