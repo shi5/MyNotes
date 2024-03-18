@@ -33,7 +33,7 @@ public static Object newProxyInstance(ClassLoader loader, Class<?>[] interfaces,
 
 #### `InvocationHandler` 接口中的`invoke()`
 
-1. **proxy** :动态生成的代理类——可以将其返回，继续调用方法
+1. **proxy** :动态生成的代理类——可以将其返回，继续调用真实对象方法
 2. **method** : 与代理类对象调用的方法相对应——传入真实对象需要代理的方法
 3. **args** : 当前 method 方法的参数
 
