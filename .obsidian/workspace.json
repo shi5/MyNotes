@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5dfbaefe08a3bbc8",
+        "id": "7b5791469fa39b23",
         "type": "tabs",
         "children": [
           {
-            "id": "a97938051b9fc4df",
+            "id": "2a8a6d93e37dfcec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "八股/Java面试八股/Java动态代理.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e93c115e47d373d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "八股/双重检查锁.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -220,12 +207,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a97938051b9fc4df",
+  "active": "2a8a6d93e37dfcec",
   "lastOpenFiles": [
+    "八股/Java面试八股/类加载器.md",
+    "八股/Java面试八股/Java动态代理.md",
+    "八股/Java面试八股/[类加载器.md",
+    "八股/双重检查锁.md",
     "八股/常用库/hutool.md",
     "八股/常用库/Lombok.md",
-    "八股/双重检查锁.md",
-    "八股/Java面试八股/Java动态代理.md",
     "八股/Java面试八股/java基础.md",
     "八股/未命名 1.md",
     "八股/常用库",
@@ -258,8 +247,6 @@
     "数据库.md",
     "数据库",
     "Reinforcement Learning.md",
-    "QT.md",
-    "torch&numpy.md",
     "短链接/用户注册",
     "短链接",
     "算法/imgs/Pasted image 20231120105948.png",
