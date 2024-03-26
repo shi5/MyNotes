@@ -152,3 +152,44 @@ JDK1.8 的 `ConcurrentHashMap`：
 不推荐使用该类提供的同步控制方法，其性能极差
 
 **需要线程安全的集合类型时请考虑使用 JUC 包下的并发集合**
+
+
+## 注意事项
+
+### 集合判空
+
+> **判断所有集合内部的元素是否为空，使用 `isEmpty()` 方法，而不是 `size()==0` 的方式。**
+
+### 集合转Map
+
+> **在使用 `java.util.stream.Collectors` 类的 `toMap()` 方法转为 `Map` 集合时，一定要注意当 value 为 null 时会抛 NPE 异常。**
+
+### 集合遍历
+
+> **不要在 foreach 循环里进行元素的 `remove/add` 操作。remove 元素请使用 `Iterator` 方式，如果并发操作，需要对 `Iterator` 对象加锁。**
+
+ foreach 语法底层依赖 `Iterator`，`remove/add` 操作直接调用的是集合自己的方法，而不是 `Iterator` 的 `remove/add`方法
+
+这就导致 `Iterator` 莫名其妙地发现自己有元素被 `remove/add` ，然后，它就会抛出一个 `ConcurrentModificationException` 来提示用户发生了并发修改异常。这就是单线程状态下产生的 `fail-fast 机制`。
+
+### 集合去重
+
+> **可以利用 `Set` 元素唯一的特性，可以快速对一个集合进行去重操作，避免使用 `List` 的 `contains()` 进行遍历去重或者判断包含操作。**
+
+### 集合转数组
+
+> **使用集合转数组的方法，必须使用集合的 `toArray(T[] array)`，传入的是类型完全一致、长度为 0 的空数组。**
+
+`toArray(T[] array)` 方法的参数是一个泛型数组，如果 `toArray` 方法中没有传递任何参数的话返回的是 `Object`类型数组。长度为0是为了节省空间，因为它只是为了说明返回的类型。
+
+### 数组转集合
+
+> 使用工具类 `Arrays.asList()` 把数组转换成集合时，不能使用其修改集合相关的方法， 它的 `add/remove/clear` 方法会抛出 `UnsupportedOperationException` 异常。
+
+1. **`Arrays.asList()`是泛型方法，传递的数组必须是对象数组，而不是基本类型。**
+
+当传入一个原生数据类型数组时，`Arrays.asList()` 的真正得到的参数就不是数组中的元素，而是数组对象本身！此时 `List` 的唯一元素就是这个数组
+
+2. **使用集合的修改方法: `add()`、`remove()`、`clear()`会抛出异常。**
+
+`Arrays.asList()` 方法返回的并不是 `java.util.ArrayList` ，而是 `java.util.Arrays` 的一个内部类,这个内部类并没有实现集合的修改方法或者说并没有重写这些方法。
