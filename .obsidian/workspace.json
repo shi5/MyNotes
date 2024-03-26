@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "八股/Java面试八股/Java基础.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "337c722f494d1762",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "八股/Java面试八股/Java基础.md",
+                "file": "八股/Java面试八股/Java集合.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -64,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#重要",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +80,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "八股/Java面试八股/Java基础.md",
+                "file": "八股/Java面试八股/Java集合.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -143,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "八股/Java面试八股/Java基础.md",
+                "file": "八股/Java面试八股/Java集合.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "八股/Java面试八股/Java基础.md",
+                "file": "八股/Java面试八股/Java集合.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股/Java面试八股/Java基础.md"
+                "file": "八股/Java面试八股/Java集合.md"
               }
             }
           },
@@ -204,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -221,12 +207,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "337c722f494d1762",
+  "active": "e4d887d05663b991",
   "lastOpenFiles": [
+    "八股/Java面试八股/Java基础.md",
     "八股/Java面试八股/Java集合.md",
     "八股/Java面试八股/Java动态代理.md",
+    "八股/Java面试八股/imgs/Pasted image 20240324215717.png",
     "Java/深入java/函数式接口.md",
-    "八股/Java面试八股/Java基础.md",
     "八股/Java面试八股/Java 魔法类 Unsafe.md",
     "八股/Java面试八股/面试题.md",
     "八股/Java面试八股/imgs/Pasted image 20240324205315.png",
@@ -261,12 +248,10 @@
     "八股",
     "数据库/分库分表技术.md",
     "数据库/读扩散.md",
-    "12306/Maven.md",
     "数据库",
     "短链接/用户注册",
     "短链接",
     "算法/imgs/Pasted image 20231120105948.png",
-    "算法/imgs/Pasted image 20231105113508.png",
     "算法/imgs",
     "算法",
     "未命名.canvas"
