@@ -109,4 +109,46 @@ JDK1.8版本采用尾插法来解决这个问题，但多线程下使用 `HashM
 
 -  JDK1.7 的 `ConcurrentHashMap` 底层采用 **分段的数组+链表** 实现，JDK1.8 采用的数据结构跟 `HashMap1.8` 的结构一样，数组+链表/红黑二叉树。`Hashtable` 和 JDK1.8 之前的 `HashMap` 的底层数据结构类似都是采用 **数组+链表** 的形式，数组是 HashMap 的主体，链表则是主要为了解决哈希冲突而存在的；
 - 实现线程安全的方式 #重要 
-	- 
+	-  `ConcurrentHashMap` 
+		- JDK1.7： 对整个桶数组进行了分割分段(`Segment`，分段锁)，每一把锁只锁容器其中一部分数据
+		- JDK1.8：已经摒弃了 `Segment` 的概念，直接用 `Node` 数组+链表+红黑树的数据结构来实现，并发控制使用 `synchronized` 和 CAS 来操作（JDK1.6 以后 `synchronized` 锁做了很多优化）， 整体就像是优化过且线程安全的 `HashMap`，虽然还能看到 `Segment` 的数据结构，但是已经简化了属性，只是为了兼容旧版本；
+	 - **`Hashtable`****(同一把锁)**
+		 - 使用 `synchronized` 来保证线程安全，效率非常低下。当一个线程访问同步方法时，其他线程也访问同步方法，可能会进入阻塞或轮询状态
+
+`Hashtable`：
+![[Pasted image 20240326155538.png]]
+
+ JDK1.7`ConcurrentHashMap`：
+ - `Segment` 的个数一旦**初始化就不能改变**
+ - `Segment` 数组的大小默认是 16，也就是说默认可以同时支持 16 个线程并发写。
+![[Pasted image 20240326155137.png]]
+
+JDK1.8 的 `ConcurrentHashMap`：
+- 取消了 `Segment` 分段锁，采用 `Node + CAS + synchronized` 来保证并发安全
+- 最大并发度是 Node 数组的大小
+![[Pasted image 20240326155632.png]]
+
+### ConcurrentHashMap 为什么 key 和 value 不能为 null？
+
+为了避免二义性，在多线程环境中无法区分这二义性
+
+拿 get 方法取值来说，返回的结果为 null 存在两种情况：
+- 值没有在集合中 ；
+- 值本身就是 null。
+单线程可以通过`containsKey(key)` 来判断否存在这个键值对，但是多线程可能会存在其他线程对`ConcurrentHashMap`进行修改，因此无法通过`containsKey(key)` 来区分上述两种情况
+
+
+但是`HashMap` 可以存储 null 的 key 和 value，多线程下无法正确判定键值对是否存在（存在其他线程修改的情况），单线程是可以的（不存在其他线程修改的情况）
+
+### ConcurrentHashMap 能保证复合操作的原子性吗？
+
+不能！
+
+要保证 `ConcurrentHashMap` 复合操作的原子性，可以使用`ConcurrentHashMap` 提供了一些原子性的复合操作，如 `putIfAbsent`、`compute`、`computeIfAbsent` 、`computeIfPresent`、`merge`等。这些方法都可以接受一个函数作为参数，根据给定的 key 和 value 来计算一个新的 value，并且将其更新到 map 中。
+
+
+## Collections 工具类 #不重要
+
+不推荐使用该类提供的同步控制方法，其性能极差
+
+**需要线程安全的集合类型时请考虑使用 JUC 包下的并发集合**
