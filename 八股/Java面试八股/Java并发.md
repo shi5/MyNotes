@@ -485,6 +485,12 @@ Java 中的内置线程池是通过 `Executors` 类提供的静态方法来创�
 
 ### callable 和 Future有什么关系
 
+`Callable` 和 `Future` 是 Java 并发编程中两个相关的接口，它们通常一起使用来实现异步任务的执行和获取结果
 
+`FutureTask` 提供了 `Future` 接口的基本实现，常用来封装 `Callable` 和 `Runnable`。`ExecutorService.submit()` 方法返回的其实就是 `Future` 的实现类 `FutureTask` 。
+
+通常情况下，将一个 `Callable` 对象提交给 `ExecutorService` 进行执行，`ExecutorService` 会返回一个 `Future` 对象，通过这个 `Future` 对象可以获取任务的执行结果。
+
+### CompletableFuture
 
 ## AQS
