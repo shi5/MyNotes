@@ -264,7 +264,7 @@ public class ReentrantLock implements Lock, java.io.Serializable {}
 
 `ReentrantLock` 里面有一个内部类 `Sync`，`Sync` 继承 AQS（`AbstractQueuedSynchronizer`），添加锁和释放锁的大部分操作实际上都是在 `Sync` 中实现的。`Sync` 有公平锁 `FairSync` 和非公平锁 `NonfairSync` 两个子类。
 
- `ReentrantLock` 的底层就是由 AQS 来实现的。
+ `ReentrantLock` 的底层就是由 [[Java并发#AQS|AQS]]  来实现的。
 
 ### 公平锁和非公平锁
 
@@ -291,3 +291,20 @@ public class ReentrantLock implements Lock, java.io.Serializable {}
 
 ## ReentrantReadWriteLock #不重要 
 
+### ReentrantReadWriteLock是什么
+
+`ReentrantReadWriteLock` 实现了 `ReadWriteLock` ，是一个可重入的读写锁，既可以保证多个线程同时读的效率，同时又可以保证有写入操作时的线程安全。
+
+`ReentrantReadWriteLock` 其实是两把锁，一把是 `WriteLock` (写锁)，一把是 `ReadLock`（读锁） 。读锁是共享锁，写锁是独占锁。读锁可以被同时读，可以同时被多个线程持有，而写锁最多只能同时被一个线程持有。
+
+`ReentrantReadWriteLock`特点：
+- 底层也是基于 [[Java并发#AQS|AQS]] 实现的。
+- 支持公平锁和非公平锁，默认时非公平锁
+- 适合读多写少的情况
+
+>一般锁进行并发控制的规则：读读互斥、读写互斥、写写互斥。
+>读写锁进行并发控制的规则：读读不互斥、读写互斥、写写互斥（只有读读不互斥）。
+
+
+
+## AQS
