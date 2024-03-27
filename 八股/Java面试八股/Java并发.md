@@ -359,6 +359,54 @@ public class ReentrantLock implements Lock, java.io.Serializable {}
 
 如果创建了一个`ThreadLocal`变量，那么访问这个变量的每个线程都会有这个变量的本地副本，这也是`ThreadLocal`变量名的由来。他们可以使用 `get()` 和 `set()` 方法来获取默认值或将其值更改为当前线程所存的副本的值，从而避免了线程安全问题。
 
-### ThreadLocal 
+### ThreadLocal 原理
+
+`Thread` 类中有一个 `threadLocals` 和 一个 `inheritableThreadLocals` 变量，它们都是 `ThreadLocalMap` 类型的变量，`ThreadLocalMap` 理解为`ThreadLocal` 类实现的定制化的 `HashMap`
+
+**最终的变量是放在了当前线程的 `ThreadLocalMap` 中，并不是存在 `ThreadLocal` 上，`ThreadLocal` 可以理解为只是`ThreadLocalMap`的封装，传递了变量值。**
+
+**每个`Thread`中都具备一个`ThreadLocalMap`，而`ThreadLocalMap`可以存储以`ThreadLocal`为 key ，Object 对象为 value 的键值对。**
+
+### ThreadLocal内存泄露问题
+
+`ThreadLocalMap` 中使用的 key 为 `ThreadLocal` 的弱引用，而 value 是强引用。所以，如果 `ThreadLocal` 没有被外部强引用的情况下，在垃圾回收的时候，key 会被清理掉，而 value 不会被清理掉。
+
+这样`ThreadLocalMap` 就会出现key为null 的 Entry，导致value 永远无法被 GC 回收，这个时候就可能会产生内存泄露。
+
+`ThreadLocalMap` 实现中已经考虑了这种情况，在调用 `set()`、`get()`、`remove()` 方法的时候，会清理掉 key 为 null 的记录。使用完 `ThreadLocal`方法后最好手动调用`remove()`方法
+
+## 线程池
+
+### 线程池是什么
+
+线程池就是管理一系列线程的资源池。当有任务要处理时，直接从线程池中获取线程来处理，处理完之后线程并不会立即被销毁，而是等待下一个任务。
+
+### 为什么要使用线程池
+
+**线程池**提供了一种限制和管理资源（包括执行一个任务）的方式。 每个**线程池**还维护一些基本统计信息，例如已完成任务的数量。
+
+使用线程池的好处：
+- **降低资源消耗**。通过重复利用已创建的线程降低线程创建和销毁造成的消耗。
+- **提高响应速度**。当任务到达时，任务可以不需要等到线程创建就能立即执行。
+- **提高线程的可管理性**。线程是稀缺资源，如果无限制的创建，不仅会消耗系统资源，还会降低系统的稳定性，使用线程池可以进行统一的分配，调优和监控。 
+
+### 如何创建线程池
+
+1. **通过`ThreadPoolExecutor`构造函数来创建（推荐）。**
+2. **通过 `Executor` 框架的工具类 `Executors` 来创建。**
+
+### 为什么不推荐使用内置线程池
+
+Java 中的内置线程池是通过 `Executors` 类提供的静态方法来创建的
+
+`Executors` 返回线程池对象的弊端如下：
+
+- **`FixedThreadPool` 和 `SingleThreadExecutor`**:使用的是无界的 `LinkedBlockingQueue`，任务队列最大长度为 `Integer.MAX_VALUE`,可能堆积大量的请求，从而导致 OOM。
+- **`CachedThreadPool`**:使用的是同步队列 `SynchronousQueue`, 允许创建的线程数量为 `Integer.MAX_VALUE` ，如果任务数量过多且执行速度较慢，可能会创建大量的线程，从而导致 OOM。
+- **`ScheduledThreadPool` 和 `SingleThreadScheduledExecutor`**:使用的无界的延迟阻塞队列`DelayedWorkQueue`，任务队列最大长度为 `Integer.MAX_VALUE`,可能堆积大量的请求，从而导致 OOM。
+
+### 线程池常见参数
+
+
 
 ## AQS
