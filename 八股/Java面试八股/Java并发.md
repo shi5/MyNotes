@@ -93,6 +93,8 @@ JDK1.2之后，Java 线程改为基于原生线程（Native Threads）实现，�
 
 严格来说，Java只有一种方式创建线程：通过`new Thread().start()`创建，不管是哪种方式，最终还是依赖于`new Thread().start()`。
 
+>  必须调用`Thread`实例的`start()`方法才能启动新线程，直接调用`run()`方法相当于普通函数调用
+
 ## Java线程的生命周期和状态
 
 - NEW: 初始状态，线程被创建出来但没有被调用 `start()` 。
@@ -346,4 +348,17 @@ public class ReentrantLock implements Lock, java.io.Serializable {}
 相比于传统读写锁多出来的乐观读是`StampedLock`比 `ReadWriteLock` 性能更好的关键原因。`StampedLock` 的乐观读允许一个写线程获取写锁，所以不会导致所有写线程阻塞，也就是当读多写少的时候，写线程有机会获取写锁，减少了线程饥饿的问题，吞吐量大大提高。
 
 ## Atomic 原子类
+
+## ThreadLocal
+
+### ThreadLocal有什么用
+
+通常情况下，我们创建的变量可以被任何一个线程访问并修改的。
+
+`ThreadLocal`类可以让每个线程绑定自己的值，可以将`ThreadLocal`类形象的比喻成存放数据的盒子，盒子中可以存储每个线程的私有数据。
+
+如果创建了一个`ThreadLocal`变量，那么访问这个变量的每个线程都会有这个变量的本地副本，这也是`ThreadLocal`变量名的由来。他们可以使用 `get()` 和 `set()` 方法来获取默认值或将其值更改为当前线程所存的副本的值，从而避免了线程安全问题。
+
+### ThreadLocal 
+
 ## AQS
