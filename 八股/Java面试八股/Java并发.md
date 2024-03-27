@@ -529,3 +529,14 @@ AQS(`AbstractQueuedSynchronizer`)的核心原理图：
 
 
 ## CyclicBarrier
+
+## ## 并发集合类
+
+| interface | non-thread-safe         | thread-safe                              |     |     |
+| --------- | ----------------------- | ---------------------------------------- | --- | --- |
+| List      | ArrayList               | CopyOnWriteArrayList                     |     |     |
+| Map       | HashMap                 | ConcurrentHashMap                        |     |     |
+| Set       | HashSet / TreeSet       | CopyOnWriteArraySet                      |     |     |
+| Queue     | ArrayDeque / LinkedList | ArrayBlockingQueue / LinkedBlockingQueue |     |     |
+| Deque     | ArrayDeque / LinkedList | LinkedBlockingDeque                      |     |     |
+> 使用这些并发集合与使用非线程安全的集合类完全相同。

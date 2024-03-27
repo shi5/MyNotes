@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "5eafce9a331558dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "八股/Java面试八股/JMM详解.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4583a1e1e95d1304",
             "type": "leaf",
             "state": {
@@ -33,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "八股/Java面试八股/Java并发.md",
+                "file": "八股/Java面试八股/JMM详解.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -142,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "八股/Java面试八股/Java并发.md",
+                "file": "八股/Java面试八股/JMM详解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "八股/Java面试八股/Java并发.md",
+                "file": "八股/Java面试八股/JMM详解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股/Java面试八股/Java并发.md"
+                "file": "八股/Java面试八股/JMM详解.md"
               }
             }
           },
@@ -220,12 +234,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e4d887d05663b991",
+  "active": "5eafce9a331558dc",
   "lastOpenFiles": [
+    "Java/深入java/JMM(Java Memory Model).md",
+    "八股/Java面试八股/JMM详解.md",
+    "八股/Java面试八股/Java并发.md",
+    "Java/深入java/并发编程.md",
     "八股/Java面试八股/imgs/Pasted image 20240327165742.png",
     "八股/Java面试八股/imgs/Pasted image 20240327165547.png",
-    "Java/深入java/并发编程.md",
-    "八股/Java面试八股/Java并发.md",
     "Java/Java常见问题记录.md",
     "八股/Java面试八股/imgs/Pasted image 20240327150044.png",
     "八股/Java面试八股/Java集合.md",
@@ -243,7 +259,6 @@
     "八股/Java面试八股/imgs/Pasted image 20240326101215.png",
     "八股/Java面试八股/imgs/Pasted image 20240324215717.png",
     "Java/深入java/函数式接口.md",
-    "八股/Java面试八股/imgs/Pasted image 20240324205315.png",
     "八股/Java面试八股/imgs",
     "八股/双重检查锁.md",
     "八股/Java面试八股/[类加载器.md",
@@ -261,7 +276,6 @@
     "数据库/缓存穿透、缓存击穿、缓存雪崩.md",
     "八股/imgs",
     "leetcode.md",
-    "Deep Learning.md",
     "八股",
     "数据库",
     "短链接/用户注册",
