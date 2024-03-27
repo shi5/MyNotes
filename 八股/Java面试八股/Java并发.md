@@ -456,6 +456,10 @@ Java 中的内置线程池是通过 `Executors` 类提供的静态方法来创�
 
 #### 动态修改线程池参数
 
+[Java线程池实现原理及其在美团业务中的实践 - 美团技术团队 (meituan.com)](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.html)
+
+### 如何设计一个能根据任务优先级来执行的线程池
+
 
 
 ## AQS
