@@ -405,6 +405,8 @@ Java 中的内置线程池是通过 `Executors` 类提供的静态方法来创�
 - **`CachedThreadPool`**:使用的是同步队列 `SynchronousQueue`, 允许创建的线程数量为 `Integer.MAX_VALUE` ，如果任务数量过多且执行速度较慢，可能会创建大量的线程，从而导致 OOM。
 - **`ScheduledThreadPool` 和 `SingleThreadScheduledExecutor`**:使用的无界的延迟阻塞队列`DelayedWorkQueue`，任务队列最大长度为 `Integer.MAX_VALUE`,可能堆积大量的请求，从而导致 OOM。
 
+通过 `ThreadPoolExecutor` 构造函数的方式可以更加明确线程池的运行规则，规避资源耗尽的风险
+
 ### 线程池常见参数
 
 **`ThreadPoolExecutor` 3 个最重要的参数：**
@@ -416,7 +418,7 @@ Java 中的内置线程池是通过 `Executors` 类提供的静态方法来创�
 - **`keepAliveTime`**:线程空闲时间，表示非核心线程在空闲状态下的存活时间。当线程池中的线程数量大于核心线程数，并且空闲时间超过该值时，空闲线程将被销毁，直到线程池中的线程数不超过核心线程数为止。
 - **`unit`** : `keepAliveTime` 参数的时间单位。
 - **`threadFactory`** :线程工厂，用于创建新的线程。可以通过自定义线程工厂来设置线程的名称、优先级等属性。
-- **`handler`** :饱和策略。用于指定当任务队列已满并且线程池中的线程数已达到最大值时，如何处理新提交的任务。
+- **`handler`** :饱和策略（拒绝策略）。用于指定当任务队列已满并且线程池中的线程数已达到最大值时，如何处理新提交的任务。
 
 ### 线程池的饱和策略有哪些
 
