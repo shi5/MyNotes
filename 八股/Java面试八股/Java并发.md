@@ -460,6 +460,31 @@ Java 中的内置线程池是通过 `Executors` 类提供的静态方法来创�
 
 ### 如何设计一个能根据任务优先级来执行的线程池
 
+可以使用 `PriorityBlockingQueue`，`PriorityBlockingQueue` 是一个支持优先级的无界阻塞队列，可以看作是线程安全的 `PriorityQueue`。
+
+实现对任务的排序，传入其中的任务必须是具备排序能力的，方式有两种：
+- 提交到线程池的任务实现 `Comparable` 接口，并重写 `compareTo` 方法来指定任务之间的优先级比较规则。
+- 创建 `PriorityBlockingQueue` 时传入一个 `Comparator` 对象来指定任务之间的排序规则(推荐)。
+
+存在的问题和风险：
+- `PriorityBlockingQueue` 是无界的，可能堆积大量的请求，从而导致 OOM。（可以重写`offer`方法解决）
+- 可能会导致饥饿问题，即低优先级的任务长时间得不到执行。
+- 由于需要对队列中的元素进行排序操作以及保证线程安全（并发控制采用的是可重入锁 `ReentrantLock`），因此会降低性能。
+
+## Future类
+
+### Future 类是什么
+
+`Future` 类是异步思想的典型运用，使用它可以在a线程中启动一个任务，在b线程中执行任务获取执行结果，并将结果返回给a线程。
+
+`Future<V>`接口表示一个未来可能会返回的结果，定义的方法有：
+- `get()`：获取结果（可能会等待）
+- `get(long timeout, TimeUnit unit)`：获取结果，但只等待指定的时间；
+- `cancel(boolean mayInterruptIfRunning)`：取消当前任务；
+- `isDone()`：判断任务是否已完成。
+
+### callable 和 Future有什么关系
+
 
 
 ## AQS
