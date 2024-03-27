@@ -407,6 +407,53 @@ Java 中的内置线程池是通过 `Executors` 类提供的静态方法来创�
 
 ### 线程池常见参数
 
+**`ThreadPoolExecutor` 3 个最重要的参数：**
+- **`corePoolSize` :** 核心线程数，表示线程池中保持存活的线程数，即使它们处于空闲状态。当有新的任务提交时，线程池会优先创建核心线程来执行任务，直到达到核心线程数。
+- **`maximumPoolSize` :** 最大线程数，表示线程池中允许存在的最大线程数。当任务队列已满并且核心线程数已经达到最大时，线程池会创建新的线程，直到达到最大线程数。
+- **`workQueue`:** 任务队列，用于保存待执行的任务。线程池中的线程会从任务队列中取出任务并执行。
+
+`ThreadPoolExecutor`其他常见参数 :
+- **`keepAliveTime`**:线程空闲时间，表示非核心线程在空闲状态下的存活时间。当线程池中的线程数量大于核心线程数，并且空闲时间超过该值时，空闲线程将被销毁，直到线程池中的线程数不超过核心线程数为止。
+- **`unit`** : `keepAliveTime` 参数的时间单位。
+- **`threadFactory`** :线程工厂，用于创建新的线程。可以通过自定义线程工厂来设置线程的名称、优先级等属性。
+- **`handler`** :饱和策略。用于指定当任务队列已满并且线程池中的线程数已达到最大值时，如何处理新提交的任务。
+
+### 线程池的饱和策略有哪些
+
+- **`ThreadPoolExecutor.AbortPolicy`：** 抛出 `RejectedExecutionException`来拒绝新任务的处理。
+- **`ThreadPoolExecutor.CallerRunsPolicy`：** 将任务交给提交任务的线程来执行。换句话说，当任务被拒绝执行时，线程池会将任务返回给调用者，由调用者所在的线程来执行该任务，如果执行程序已关闭，则会丢弃该任务。但是，如果提交任务的线程本身是一个繁忙的线程，可能会导致调用者线程也变得繁忙，进而影响系统的整体性能。
+- **`ThreadPoolExecutor.DiscardPolicy`：** 不处理新任务，直接丢弃掉。
+- **`ThreadPoolExecutor.DiscardOldestPolicy`：** 此策略将丢弃最早的未处理的任务请求。
+
+### 线程池常用的阻塞队列
+
+不同的线程池会选用不同的阻塞队列：
+- 容量为 `Integer.MAX_VALUE` 的 `LinkedBlockingQueue`（无界队列）：`FixedThreadPool` 和 `SingleThreadExector` 。`FixedThreadPool`最多只能创建核心线程数的线程（核心线程数和最大线程数相等），`SingleThreadExector`只能创建一个线程（核心线程数和最大线程数都是 1），二者的任务队列永远不会被放满。
+- `SynchronousQueue`（同步队列）：`CachedThreadPool` 。`SynchronousQueue` 没有容量，不存储元素，目的是保证对于提交的任务，如果有空闲线程，则使用空闲线程来处理；否则新建一个线程来处理任务。也就是说，`CachedThreadPool` 的最大线程数是 `Integer.MAX_VALUE` ，可以理解为线程数是可以无限扩展的，可能会创建大量线程，从而导致 OOM。
+- `DelayedWorkQueue`（延迟阻塞队列）：`ScheduledThreadPool` 和 `SingleThreadScheduledExecutor` 。`DelayedWorkQueue` 的内部元素并不是按照放入的时间排序，而是会按照延迟的时间长短对任务进行排序，内部采用的是“堆”的数据结构，可以保证每次出队的任务都是当前队列中执行时间最靠前的。`DelayedWorkQueue` 添加元素满了之后会自动扩容原来容量的 1/2，即永远不会阻塞，最大扩容可达 `Integer.MAX_VALUE`，所以最多只能创建核心线程数的线程。
+
+### 线程池处理流程
+
+![[Pasted image 20240327150044.png]]
+
+### 线程池命名
+
+1. **利用 guava 的 `ThreadFactoryBuilder`**
+2. **自己实现 `ThreadFactory`。**
+
+### 如何设置线程池大小
+
+#### 简单公式
+
+- **CPU 密集型任务(N+1)**：N（CPU 核心数）
+- **I/O 密集型任务(2N)**
+
+#### 严谨计算
+
+`最佳线程数 = N（CPU 核心数）∗（1+WT（线程等待时间）/ST（线程计算时间））`，其中 `WT（线程等待时间）=线程运行总时间 - ST（线程计算时间）`。
+
+#### 动态修改线程池参数
+
 
 
 ## AQS
