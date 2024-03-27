@@ -493,4 +493,11 @@ Java 中的内置线程池是通过 `Executors` 类提供的静态方法来创�
 
 ### CompletableFuture
 
+`CompletableFuture` 除了提供了更为好用和强大的 `Future` 特性之外，还提供了函数式编程、异步任务编排组合（可以将多个异步任务串联起来，组成一个完整的链式调用）等能力。
+
 ## AQS
+
+AQS 的全称为 `AbstractQueuedSynchronizer` ，即抽象队列同步器，是一个抽象类，主要用来构建锁和同步器。
+
+### AQS原理
+
