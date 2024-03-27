@@ -167,11 +167,13 @@ date created: 2023-11-02 10:36
 ### Class对象的获取方式
 
 1. `Class.forname("全类名")`：包名+类名  将字节码文件加载进内存，返回class对象
-		- 多用于配置文件，将类名定义在配置文件中，读取文件，加载类
+	- 多用于配置文件，将类名定义在配置文件中，读取文件，加载类
 2. 类名.class:通过类名的属性class获取
-		- 多用于参数的传递
+	- 多用于参数的传递
 3. 对象.getClass():getClass()方法在Object类中定义着。
-		- 多用于对象的获取字节码的方式
+	- 多用于对象的获取字节码的方式
+4. 通过类加载器`xxxClassLoader.loadClass()`传入类路径获取:
+	- 通过类加载器获取 Class 对象不会进行初始化，意味着不进行包括初始化等一系列步骤，静态代码块和静态对象不会得到执行
 
 > 同一个字节码文件(.class)在一次程序运行中，只会被加载一次，不论通过哪一种方式获取的Class对象都是同一个
 
@@ -212,11 +214,11 @@ date created: 2023-11-02 10:36
 
 - 操作
 	1. 设置值
-			- void set(Object obj, Object value)
+		- void set(Object obj, Object value)
 	2. 获取值
-			- get(Object obj)
+		- get(Object obj)
 	3. 忽略访问权限修饰符的安全检查
-			- field.setAccesible(true)l;//暴力反射
+		- field.setAccesible(true)l;//暴力反射
 
 ### Constructor：构造方法
 
