@@ -354,6 +354,8 @@ public class ReentrantLock implements Lock, java.io.Serializable {}
 
 ## Atomic 原子类
 
+原子类说简单点就是具有原子/原子操作特征的类。
+
 ## ThreadLocal
 
 ### ThreadLocal有什么用
@@ -545,3 +547,7 @@ AQS(`AbstractQueuedSynchronizer`)的核心原理图：
 | Queue     | ArrayDeque / LinkedList | ArrayBlockingQueue / LinkedBlockingQueue |     |     |
 | Deque     | ArrayDeque / LinkedList | LinkedBlockingDeque                      |     |     |
 > 使用这些并发集合与使用非线程安全的集合类完全相同。
+
+### 阻塞队列
+
+**阻塞队列（BlockingQueue）** 是一个支持两个附加操作的队列。这两个附加的操作是：在队列为空时，获取元素的线程会等待队列变为非空。当队列满时，存储元素的线程会等待队列可用。阻塞队列常用于生产者和消费者的场景，生产者是往队列里添加元素的线程，消费者是从队列里拿元素的线程。阻塞队列就是生产者存放元素的容器，而消费者也只从容器里拿元素。
