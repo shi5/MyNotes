@@ -194,3 +194,55 @@ Java 堆是垃圾收集器管理的主要区域，因此也被称作 **GC 堆�
 ### 类的生命周期
 
 ![[Pasted image 20240328174548.png]]
+
+### 类加载过程
+
+系统加载 Class 类型的文件主要三步：**加载->连接->初始化**。连接过程又可分为三步：**验证->准备->解析**。
+
+### 类卸载
+
+**卸载类即该类的 Class 对象被 GC。**
+
+## 类加载器
+
+> [一看你就懂，超详细java中的ClassLoader详解-CSDN博客](https://blog.csdn.net/briblue/article/details/54973413)
+
+- 类加载器是一个负责加载类的对象，用于实现类加载过程中的加载这一步。
+- 每个 Java 类都有一个引用指向加载它的 `ClassLoader`。
+- 数组类不是通过 `ClassLoader` 创建的（数组类没有对应的二进制字节流），是由 JVM 直接生成的。
+
+### 类加载器加载规则
+
+- JVM 启动的时候，并不会一次性加载所有的类，而是根据需要去动态加载。
+- 对于已经加载的类会被放在 `ClassLoader` 中，不会重复加载
+### JAVA类加载器
+
+- **Bootstrap ClassLoader (启动类加载器)** ：最顶层的加载类，主要加载核心类库，%JRE_HOME%\lib下的rt.jar、resources.jar、charsets.jar和class等。另外需要注意的是可以通过启动jvm时指定-Xbootclasspath和路径来改变Bootstrap ClassLoader的加载目录。比如`java -Xbootclasspath/a:path`被指定的文件追加到默认的bootstrap路径中。我们可以打开我的电脑，在上面的目录下查看，看看这些jar包是不是存在于这个目录。
+- **Extention ClassLoader (扩展类加载器)**：扩展的类加载器，加载目录%JRE_HOME%\lib\ext目录下的jar包和class文件。还可以加载`-D java.ext.dirs`选项指定的目录。
+- **Appclass Loader(应用程序类加载器)**：，加载当前应用的classpath的所有类。
+
+>Java 9 引入了模块系统，并且略微更改了上述的类加载器。扩展类加载器被改名为平台类加载器（platform class loader）。Java SE 中除了少数几个关键模块，比如说 `java.base` 是由启动类加载器加载之外，其他的模块均由平台类加载器所加载。
+
+除了 `BootstrapClassLoader` 是 JVM 自身的一部分之外，其他所有的类加载器都是在 JVM 外部实现的，并且全都继承自 `ClassLoader`抽象类。
+
+每个 `ClassLoader` 可以通过`getParent()`获取其父 `ClassLoader`，如果获取到 `ClassLoader` 为`null`的话，那么该类是通过 `BootstrapClassLoader` 加载的。
+
+> **为什么 获取到 `ClassLoader` 为`null`就是 `BootstrapClassLoader` 加载的呢？** 这是因为`BootstrapClassLoader` 由 C++ 实现，由于这个 C++ 实现的类加载器在 Java 中是没有与之对应的类的，所以拿到的结果是 null。
+
+### 双亲委派模型
+
+- `ClassLoader` 类使用委托模型来搜索类和资源。
+- 双亲委派模型要求除了顶层的启动类加载器外，其余的类加载器都应有自己的父类加载器。
+- `ClassLoader` 实例会在试图亲自查找类或资源之前，将搜索类或资源的任务委托给其父类加载器。
+
+![[Pasted image 20240328202428.png]]
+
+**JVM 判定两个 Java 类是否相同的具体规则**：JVM 不仅要看类的全名是否相同，还要看加载此类的类加载器是否一样。只有两者都相同的情况，才认为两个类是相同的。即使两个类来源于同一个 `Class` 文件，被同一个虚拟机加载，只要加载它们的类加载器不同，那这两个类就必定不相同。
+
+#### 双亲委派模型的好处
+
+双亲委派模型保证了 Java 程序的稳定运行，可以避免类的重复加载（JVM 区分不同类的方式不仅仅根据类名，相同的类文件被不同的类加载器加载产生的是两个不同的类），也保证了 Java 的核心 API 不被篡改。
+
+#### 打破双亲委派模型
+
+自定义加载器的话，需要继承 `ClassLoader` 。如果我们不想打破双亲委派模型，就重写 `ClassLoader` 类中的 `findClass()` 方法即可，无法被父类加载器加载的类最终会通过这个方法被加载。但是，如果想打破双亲委派模型则需要重写 `loadClass()` 方法。

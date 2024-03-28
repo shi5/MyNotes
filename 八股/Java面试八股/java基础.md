@@ -403,13 +403,3 @@ public static Object newProxyInstance(ClassLoader loader, Class<?>[] interfaces,
 6. 线程调度
 7. Class 操作
 8. 系统信息
-
-## 类加载器
-
-> [一看你就懂，超详细java中的ClassLoader详解-CSDN博客](https://blog.csdn.net/briblue/article/details/54973413)
-
-### JAVA类加载器
-
-- **Bootstrap ClassLoader** 最顶层的加载类，主要加载核心类库，%JRE_HOME%\lib下的rt.jar、resources.jar、charsets.jar和class等。另外需要注意的是可以通过启动jvm时指定-Xbootclasspath和路径来改变Bootstrap ClassLoader的加载目录。比如`java -Xbootclasspath/a:path`被指定的文件追加到默认的bootstrap路径中。我们可以打开我的电脑，在上面的目录下查看，看看这些jar包是不是存在于这个目录。
-- **Extention ClassLoader** 扩展的类加载器，加载目录%JRE_HOME%\lib\ext目录下的jar包和class文件。还可以加载`-D java.ext.dirs`选项指定的目录。
-- **Appclass Loader也称为SystemAppClass**，加载当前应用的classpath的所有类。
