@@ -91,6 +91,11 @@ JDK1.2之后，Java 线程改为基于原生线程（Native Threads）实现，�
 
 ## Java创建线程
 
+三种方式：
+- 继承`Thread`类；
+- 实现`Runnable`接口；
+- 实现`Callable`接口。
+
 严格来说，Java只有一种方式创建线程：通过`new Thread().start()`创建，不管是哪种方式，最终还是依赖于`new Thread().start()`。
 
 >  必须调用`Thread`实例的`start()`方法才能启动新线程，直接调用`run()`方法相当于普通函数调用
