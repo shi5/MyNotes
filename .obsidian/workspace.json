@@ -67,7 +67,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "0caedac4d6a4f85c",
@@ -209,9 +210,9 @@
   },
   "active": "1b1cefab0f4dd55c",
   "lastOpenFiles": [
-    "八股/Java面试八股/Java基础.md",
     "数据库/缓存穿透、缓存击穿、缓存雪崩.md",
     "短链接/项目简历.md",
+    "八股/Java面试八股/Java基础.md",
     "短链接/用户注册/用户名创建唯一索引.md",
     "八股/Java面试八股/Java集合.md",
     "短链接/延迟队列和读写锁.md",
