@@ -4,63 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "6e0075d7444a53da",
+        "id": "a0f49c443090c815",
         "type": "tabs",
         "children": [
           {
-            "id": "5eafce9a331558dc",
+            "id": "3c00d9209e832b5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/微服务.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "41d26a23801f1dda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "八股/Spring.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cbce5ea729f420a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/深入java/并发编程.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9823edc1a8d7533c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "短链接/项目简历.md",
+                "file": "短链接/延迟队列和读写锁.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +80,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "短链接/项目简历.md",
+                "file": "短链接/延迟队列和读写锁.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -169,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "短链接/项目简历.md",
+                "file": "短链接/延迟队列和读写锁.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "短链接/项目简历.md",
+                "file": "短链接/延迟队列和读写锁.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "短链接/项目简历.md"
+                "file": "短链接/延迟队列和读写锁.md"
               }
             }
           },
@@ -247,12 +207,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9823edc1a8d7533c",
+  "active": "3c00d9209e832b5d",
   "lastOpenFiles": [
+    "短链接/延迟队列和读写锁.md",
+    "八股/面试题.md",
     "Java/深入java/并发编程.md",
-    "短链接/项目简历.md",
-    "Java/微服务.md",
     "八股/Spring.md",
+    "Java/微服务.md",
+    "八股/Java面试八股/Java基础.md",
+    "短链接/项目简历.md",
     "Java/web.md",
     "Java/JavaWeb.md",
     "八股/Java面试八股/JMM详解.md",
@@ -260,7 +223,6 @@
     "八股/Java面试八股/JVM.md",
     "八股/计算机基础",
     "八股/Java面试八股/imgs/Pasted image 20240328202428.png",
-    "八股/Java面试八股/Java基础.md",
     "八股/Java面试八股/imgs/Pasted image 20240328174548.png",
     "八股/Java面试八股/imgs/Pasted image 20240328164645.png",
     "八股/Java面试八股/imgs/Pasted image 20240328162517.png",
@@ -276,7 +238,6 @@
     "八股/Java面试八股/imgs/Pasted image 20240327165742.png",
     "Java/Java常见问题记录.md",
     "八股/Java面试八股/Java集合.md",
-    "八股/面试题.md",
     "八股/Java面试八股/类加载器.md",
     "八股/Java面试八股/Java 魔法类 Unsafe.md",
     "八股/Java面试八股/Java动态代理.md",
@@ -286,7 +247,6 @@
     "八股/Java面试八股/[类加载器.md",
     "八股/常用库/hutool.md",
     "八股/常用库/Lombok.md",
-    "八股/未命名 1.md",
     "八股/常用库",
     "八股/Java面试八股",
     "八股/imgs",
