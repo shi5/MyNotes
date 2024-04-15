@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "短链接/Redis.md",
+                "file": "八股/Redis.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "短链接/Redis.md",
+                "file": "八股/Redis.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "短链接/Redis.md",
+                "file": "八股/Redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "短链接/Redis.md",
+                "file": "八股/Redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "短链接/Redis.md"
+                "file": "八股/Redis.md"
               }
             }
           },
@@ -221,10 +221,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b9e168fd27bc31db",
+  "active": "bb48c238613244e7",
   "lastOpenFiles": [
+    "短链接/imgs/Pasted image 20240415151938.png",
+    "短链接/imgs",
     "短链接/延迟队列和读写锁.md",
-    "短链接/Redis.md",
+    "八股/Redis.md",
     "八股/项目简历.md",
     "数据库/缓存穿透、缓存击穿、缓存雪崩.md",
     "八股/Java面试八股/Java基础.md",
@@ -260,7 +262,6 @@
     "Java/深入java/函数式接口.md",
     "八股/Java面试八股/imgs",
     "八股/双重检查锁.md",
-    "八股/Java面试八股/[类加载器.md",
     "八股/常用库",
     "八股/Java面试八股",
     "八股/imgs",
@@ -268,7 +269,6 @@
     "数据库",
     "短链接/用户注册",
     "短链接",
-    "算法/imgs",
     "未命名.canvas"
   ]
 }
