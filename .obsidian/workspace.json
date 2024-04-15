@@ -221,11 +221,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bb48c238613244e7",
+  "active": "b9e168fd27bc31db",
   "lastOpenFiles": [
+    "短链接/延迟队列和读写锁.md",
     "短链接/imgs/Pasted image 20240415151938.png",
     "短链接/imgs",
-    "短链接/延迟队列和读写锁.md",
     "八股/Redis.md",
     "八股/项目简历.md",
     "数据库/缓存穿透、缓存击穿、缓存雪崩.md",
@@ -254,7 +254,6 @@
     "八股/Java面试八股/imgs/Pasted image 20240327213123.png",
     "八股/Java面试八股/imgs/Pasted image 20240327211707.png",
     "Java/深入java/JMM(Java Memory Model).md",
-    "八股/Java面试八股/imgs/Pasted image 20240327165742.png",
     "Java/Java常见问题记录.md",
     "八股/Java面试八股/类加载器.md",
     "八股/Java面试八股/Java 魔法类 Unsafe.md",
