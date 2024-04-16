@@ -370,3 +370,24 @@ Redis4.0-RC3 版本以后自带了内存整理，可以通过设置参数对其�
 - cache不存在读db
 - 将数据写入cache
 
+### 读写穿透（Read/Write Through Pattern）
+
+不常用
+
+服务端把 cache 视为主要数据存储
+
+写：
+- 先查cache，cache不存在则直接更新db
+- cache存在，先更新cache，然后cache服务自己更新db
+
+读：
+- cache存在直接读取返回
+- 不存在则从db加载，写入cache后返回
+
+### 异步缓存写入（Write Behind Pattern）
+
+适合写请求多
+
+和 Read/Write Through Pattern 很相似，由 cache 服务来负责 cache 和 db 的读写。
+
+但是：**Read/Write Through 是同步更新 cache 和 db，而 Write Behind 则是只更新缓存，不直接更新 db，而是改为异步批量的方式来更新 db。**
