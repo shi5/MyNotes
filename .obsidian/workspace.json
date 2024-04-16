@@ -19,6 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "475f562ee667d0ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "八股/特殊知识点/缓存和数据库一致性问题.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -67,8 +80,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "0caedac4d6a4f85c",
@@ -210,9 +222,10 @@
   },
   "active": "be0d2be3e0637b72",
   "lastOpenFiles": [
-    "数据库/缓存穿透、缓存击穿、缓存雪崩.md",
-    "八股/Redis.md",
     "八股/特殊知识点/Hash.md",
+    "八股/特殊知识点/缓存和数据库一致性问题.md",
+    "八股/Redis.md",
+    "数据库/缓存穿透、缓存击穿、缓存雪崩.md",
     "短链接/延迟队列和读写锁.md",
     "八股/特殊知识点",
     "八股/特殊知识点/双重检查锁.md",
@@ -248,7 +261,6 @@
     "八股/Java面试八股/类加载器.md",
     "八股/Java面试八股/Java 魔法类 Unsafe.md",
     "八股/Java面试八股/Java动态代理.md",
-    "Java/深入java/函数式接口.md",
     "八股/Java面试八股/imgs",
     "八股/常用库",
     "八股/Java面试八股",
