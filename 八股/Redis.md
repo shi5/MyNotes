@@ -386,7 +386,7 @@ Redis4.0-RC3 版本以后自带了内存整理，可以通过设置参数对其�
 
 ### 异步缓存写入（Write Behind Pattern）
 
-适合写请求多
+适合写请求多，适合一些数据经常变化又对数据一致性要求没那么高的场景，比如浏览量、点赞量。
 
 和 Read/Write Through Pattern 很相似，由 cache 服务来负责 cache 和 db 的读写。
 

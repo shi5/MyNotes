@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "八股/Redis.md",
+                "file": "八股/特殊知识点/缓存和数据库一致性问题.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -93,7 +93,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "八股/Redis.md",
+                "file": "八股/特殊知识点/缓存和数据库一致性问题.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "八股/Redis.md",
+                "file": "八股/特殊知识点/缓存和数据库一致性问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "八股/Redis.md",
+                "file": "八股/特殊知识点/缓存和数据库一致性问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股/Redis.md"
+                "file": "八股/特殊知识点/缓存和数据库一致性问题.md"
               }
             }
           },
@@ -222,8 +222,8 @@
   },
   "active": "be0d2be3e0637b72",
   "lastOpenFiles": [
-    "八股/特殊知识点/缓存和数据库一致性问题.md",
     "八股/Redis.md",
+    "八股/特殊知识点/缓存和数据库一致性问题.md",
     "八股/特殊知识点/Hash.md",
     "数据库/缓存穿透、缓存击穿、缓存雪崩.md",
     "短链接/延迟队列和读写锁.md",
