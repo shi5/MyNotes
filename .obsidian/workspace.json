@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "be0d2be3e0637b72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "八股/特殊知识点/缓存和数据库一致性问题.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "475f562ee667d0ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "八股/特殊知识点/缓存和数据库一致性问题.md",
+                "file": "八股/Redis.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -93,7 +80,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "八股/特殊知识点/缓存和数据库一致性问题.md",
+                "file": "八股/Redis.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -142,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "八股/特殊知识点/缓存和数据库一致性问题.md",
+                "file": "八股/Redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "八股/特殊知识点/缓存和数据库一致性问题.md",
+                "file": "八股/Redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股/特殊知识点/缓存和数据库一致性问题.md"
+                "file": "八股/Redis.md"
               }
             }
           },
@@ -220,10 +207,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "be0d2be3e0637b72",
+  "active": "475f562ee667d0ab",
   "lastOpenFiles": [
-    "八股/Redis.md",
+    "八股/imgs/Pasted image 20240417102939.png",
+    "八股/imgs/Pasted image 20240417101435.png",
     "八股/特殊知识点/缓存和数据库一致性问题.md",
+    "八股/Redis.md",
     "八股/特殊知识点/Hash.md",
     "数据库/缓存穿透、缓存击穿、缓存雪崩.md",
     "短链接/延迟队列和读写锁.md",
@@ -231,7 +220,7 @@
     "八股/特殊知识点/双重检查锁.md",
     "短链接/imgs/Pasted image 20240415151938.png",
     "短链接/imgs",
-    "八股/项目简历.md",
+    "短链接/项目简历.md",
     "八股/Java面试八股/Java基础.md",
     "短链接/用户注册/用户名创建唯一索引.md",
     "八股/Java面试八股/Java集合.md",
@@ -255,12 +244,10 @@
     "八股/Java面试八股/imgs/Pasted image 20240327222232.png",
     "八股/Java面试八股/imgs/Pasted image 20240327213208.png",
     "八股/Java面试八股/imgs/Pasted image 20240327213123.png",
-    "八股/Java面试八股/imgs/Pasted image 20240327211707.png",
     "Java/深入java/JMM(Java Memory Model).md",
     "Java/Java常见问题记录.md",
     "八股/Java面试八股/类加载器.md",
     "八股/Java面试八股/Java 魔法类 Unsafe.md",
-    "八股/Java面试八股/Java动态代理.md",
     "八股/Java面试八股/imgs",
     "八股/常用库",
     "八股/Java面试八股",
