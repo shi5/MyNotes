@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "八股/计算机基础/计网.md",
+                "file": "Java/深入java/方法引用.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "缓存",
+                "query": "stream",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "八股/计算机基础/计网.md",
+                "file": "Java/深入java/方法引用.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "八股/计算机基础/计网.md",
+                "file": "Java/深入java/方法引用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "八股/计算机基础/计网.md",
+                "file": "Java/深入java/方法引用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股/计算机基础/计网.md"
+                "file": "Java/深入java/方法引用.md"
               }
             }
           },
@@ -223,13 +223,18 @@
   },
   "active": "a4c73ff59e6d269d",
   "lastOpenFiles": [
+    "Java/深入java/Java Stream.md",
+    "Java/深入java/Java Optional.md",
+    "Java/深入java/函数式接口.md",
+    "Java/深入java/方法引用.md",
+    "leetcode.md",
+    "八股/计算机基础/计网.md",
     "八股/计算机基础/imgs/Pasted image 20240418164041.png",
     "八股/计算机基础/imgs/Pasted image 20240418152118.png",
     "八股/计算机基础/imgs/Pasted image 20240418145506.png",
     "八股/计算机基础/imgs/Pasted image 20240418142734.png",
     "八股/计算机基础/imgs",
     "八股/Redis.md",
-    "八股/计算机基础/计网.md",
     "八股/imgs/Pasted image 20240417102939.png",
     "八股/imgs/Pasted image 20240417101435.png",
     "八股/特殊知识点/缓存和数据库一致性问题.md",
@@ -256,13 +261,8 @@
     "八股/Java面试八股/imgs/Pasted image 20240328202428.png",
     "八股/Java面试八股/imgs/Pasted image 20240328174548.png",
     "八股/Java面试八股/imgs/Pasted image 20240328164645.png",
-    "八股/Java面试八股/imgs/Pasted image 20240328162517.png",
     "八股/Java面试八股/Java并发.md",
-    "Java/深入java/Java Optional.md",
-    "Java/深入java/Java Stream.md",
     "Java/深入java/JMM(Java Memory Model).md",
-    "Java/Java常见问题记录.md",
-    "八股/Java面试八股/类加载器.md",
     "八股/Java面试八股/imgs",
     "八股/常用库",
     "八股/Java面试八股",

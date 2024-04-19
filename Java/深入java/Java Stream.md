@@ -26,5 +26,5 @@
 
 ### 3. 转换流
 
-`collect()`：将流转换为集合，
+`collect()`：将流转换为集合
 `toArray()` ：可以将流转换成数组，接收参数为`IntFunction`
