@@ -127,6 +127,8 @@ jdk9:改为 `byte[]`，新版的 String 其实支持两个编码方案：Latin-1
 
 常量折叠会把常量表达式的值求出来作为常量嵌在最终生成的代码中，这是 Javac 编译器会对源代码做的极少量优化措施之一(代码优化几乎都在即时编译器中进行)。
 
+对于 `String str3 = "str" + "ing";` 编译器会给你优化成 `String str3 = "string";`
+
 ## SPI #重要 
 > [Java SPI 机制详解 | JavaGuide](https://javaguide.cn/java/basis/spi.html)
 

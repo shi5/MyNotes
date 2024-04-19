@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/深入java/方法引用.md",
+                "file": "八股/Java面试八股/Java基础.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Java/深入java/方法引用.md",
+                "file": "八股/Java面试八股/Java基础.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/深入java/方法引用.md",
+                "file": "八股/Java面试八股/Java基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/深入java/方法引用.md",
+                "file": "八股/Java面试八股/Java基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/深入java/方法引用.md"
+                "file": "八股/Java面试八股/Java基础.md"
               }
             }
           },
@@ -224,9 +224,9 @@
   "active": "a4c73ff59e6d269d",
   "lastOpenFiles": [
     "Java/深入java/Java Stream.md",
+    "Java/深入java/方法引用.md",
     "Java/深入java/Java Optional.md",
     "Java/深入java/函数式接口.md",
-    "Java/深入java/方法引用.md",
     "leetcode.md",
     "八股/计算机基础/计网.md",
     "八股/计算机基础/imgs/Pasted image 20240418164041.png",
