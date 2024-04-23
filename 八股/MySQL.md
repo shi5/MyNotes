@@ -82,3 +82,42 @@ Compressed 和 Dynamic：**溢出数据全部存到「溢出页」**，行记录
 
 默认使用B+树作为索引的数据结构
 
+### 联合索引
+
+联合索引：多个字段组合成一个索引
+
+- 存在先后顺序：(a,b,c)和(b,a,c)不一样
+- 最左匹配原则
+
+> 建立联合索引的时候要把**区分度大的字段**放在前面
+
+#### 联合索引范围查询
+
+Q1: `select * from t_table where a > 1 and b = 2`，联合索引（a, b）哪一个字段用到了联合索引的 B+Tree？
+A1：**a**
+
+Q2: `select * from t_table where a >= 1 and b = 2`，联合索引（a, b）哪一个字段用到了联合索引的 B+Tree？
+A2：**a, b**（a == 1的情况下会用到b）
+
+Q3: `SELECT * FROM t_table WHERE a BETWEEN 2 AND 8 AND b = 2`，联合索引（a, b）哪一个字段用到了联合索引的 B+Tree？
+A3：**a, b**（a == 1的情况下会用到b）
+
+Q4: `SELECT * FROM t_user WHERE name like 'j%' and age = 22`，联合索引（name, age）哪一个字段用到了联合索引的 B+Tree？ 
+A4:  name, age
+
+#### 索引下推优化
+
+MySQL 5.6引入，**可以在联合索引遍历过程中，对联合索引中包含的字段先做判断，直接过滤掉不满足条件的记录，减少回表次数**
+
+### 什么时候适用索引
+
+- 字段具有唯一性
+- 经常用于`where`查询条件的字段
+- 经常用于 `GROUP BY` 和 `ORDER BY` 的字段
+
+### 优化索引的方法
+
+- 前缀索引优化
+- 覆盖索引优化
+- 主键索引最好是自增的
+- 索引最好是NOT NULL
