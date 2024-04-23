@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "13a4a5cd8b02a7cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "八股/MySQL.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "八股/Java面试八股/Java并发.md",
+                "file": "八股/MySQL.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -143,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "八股/Java面试八股/Java并发.md",
+                "file": "八股/MySQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "八股/Java面试八股/Java并发.md",
+                "file": "八股/MySQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股/Java面试八股/Java并发.md"
+                "file": "八股/MySQL.md"
               }
             }
           },
@@ -221,8 +234,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a4c73ff59e6d269d",
+  "active": "bb48c238613244e7",
   "lastOpenFiles": [
+    "八股/Java面试八股/Java并发.md",
+    "八股/MySQL.md",
     "八股/Java面试八股/Java基础.md",
     "Java/深入java/Java Stream.md",
     "Java/深入java/方法引用.md",
@@ -261,8 +276,6 @@
     "八股/Java面试八股/imgs/Pasted image 20240328202428.png",
     "八股/Java面试八股/imgs/Pasted image 20240328174548.png",
     "八股/Java面试八股/imgs/Pasted image 20240328164645.png",
-    "八股/Java面试八股/Java并发.md",
-    "Java/深入java/JMM(Java Memory Model).md",
     "八股/Java面试八股/imgs",
     "八股/常用库",
     "八股/Java面试八股",
