@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "八股/Java面试八股/JVM.md",
+                "file": "八股/Redis.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -107,7 +107,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "八股/Java面试八股/JVM.md",
+                "file": "八股/Redis.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "八股/Java面试八股/JVM.md",
+                "file": "八股/Redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "八股/Java面试八股/JVM.md",
+                "file": "八股/Redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股/Java面试八股/JVM.md"
+                "file": "八股/Redis.md"
               }
             }
           },
@@ -236,6 +236,7 @@
   },
   "active": "13a4a5cd8b02a7cb",
   "lastOpenFiles": [
+    "八股/Java面试八股/JVM.md",
     "八股/Redis.md",
     "八股/MySQL.md",
     "八股/imgs/Pasted image 20240424105039.png",
