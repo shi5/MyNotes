@@ -4,50 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "dae70cc6ee67f52f",
+        "id": "3d38a624d106d6ba",
         "type": "tabs",
         "children": [
           {
-            "id": "475f562ee667d0ab",
+            "id": "549a05ca301db8d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "八股/Redis.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a4c73ff59e6d269d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "八股/Java面试八股/Java并发.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "13a4a5cd8b02a7cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "八股/Java面试八股/Java并发.md",
+                "file": "八股/MySQL.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +80,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "八股/Java面试八股/Java并发.md",
+                "file": "八股/MySQL.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -156,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "八股/Java面试八股/Java并发.md",
+                "file": "八股/MySQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "八股/Java面试八股/Java并发.md",
+                "file": "八股/MySQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股/Java面试八股/Java并发.md"
+                "file": "八股/MySQL.md"
               }
             }
           },
@@ -234,10 +207,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "13a4a5cd8b02a7cb",
+  "active": "549a05ca301db8d4",
   "lastOpenFiles": [
-    "八股/Java面试八股/Java集合.md",
+    "八股/面经.md",
+    "八股/MySQL.md",
+    "短链接/项目简历.md",
+    "八股/面试题.md",
     "八股/Java面试八股/Java并发.md",
+    "八股/Java面试八股/Java集合.md",
     "Java/深入java/并发编程.md",
     "Deep Learning.md",
     "八股/Java面试八股/Java基础.md",
@@ -245,10 +222,8 @@
     "八股/Java面试八股/JMM详解.md",
     "12306/新知识/单例模式.md",
     "短链接/延迟队列和读写锁.md",
-    "短链接/项目简历.md",
     "短链接/用户注册/用户名创建唯一索引.md",
     "八股/Redis.md",
-    "八股/MySQL.md",
     "八股/imgs/Pasted image 20240424105039.png",
     "八股/imgs/Pasted image 20240424102831.png",
     "八股/imgs/Pasted image 20240423205816.png",
@@ -272,9 +247,7 @@
     "八股/特殊知识点",
     "八股/特殊知识点/双重检查锁.md",
     "短链接/imgs",
-    "八股/面试题.md",
     "八股/Spring.md",
-    "Java/微服务.md",
     "八股/计算机基础",
     "八股/Java面试八股/imgs",
     "八股/常用库",
