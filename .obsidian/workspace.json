@@ -94,8 +94,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "0caedac4d6a4f85c",
@@ -237,15 +236,17 @@
   },
   "active": "13a4a5cd8b02a7cb",
   "lastOpenFiles": [
+    "八股/Java面试八股/Java集合.md",
+    "八股/Java面试八股/Java并发.md",
+    "Java/深入java/并发编程.md",
+    "Deep Learning.md",
+    "八股/Java面试八股/Java基础.md",
+    "八股/Java面试八股/JVM.md",
+    "八股/Java面试八股/JMM详解.md",
     "12306/新知识/单例模式.md",
     "短链接/延迟队列和读写锁.md",
     "短链接/项目简历.md",
     "短链接/用户注册/用户名创建唯一索引.md",
-    "八股/Java面试八股/JMM详解.md",
-    "八股/Java面试八股/JVM.md",
-    "八股/Java面试八股/Java并发.md",
-    "八股/Java面试八股/Java集合.md",
-    "八股/Java面试八股/Java基础.md",
     "八股/Redis.md",
     "八股/MySQL.md",
     "八股/imgs/Pasted image 20240424105039.png",
@@ -272,10 +273,8 @@
     "八股/特殊知识点/双重检查锁.md",
     "短链接/imgs",
     "八股/面试题.md",
-    "Java/深入java/并发编程.md",
     "八股/Spring.md",
     "Java/微服务.md",
-    "Java/web.md",
     "八股/计算机基础",
     "八股/Java面试八股/imgs",
     "八股/常用库",
