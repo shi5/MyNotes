@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "八股/计算机基础/操作系统.md",
+                "file": "八股/计算机基础/计网.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "八股/计算机基础/操作系统.md",
+                "file": "八股/计算机基础/计网.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "八股/计算机基础/操作系统.md",
+                "file": "八股/计算机基础/计网.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "八股/计算机基础/操作系统.md",
+                "file": "八股/计算机基础/计网.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股/计算机基础/操作系统.md"
+                "file": "八股/计算机基础/计网.md"
               }
             }
           },
@@ -223,11 +223,11 @@
   },
   "active": "e3947322dc4e2c1b",
   "lastOpenFiles": [
+    "八股/计算机基础/操作系统.md",
     "八股/计算机基础/imgs/Pasted image 20240429171034.png",
     "八股/Java面试八股/Java并发.md",
     "短链接/项目简历.md",
     "短链接/延迟队列和读写锁.md",
-    "八股/计算机基础/操作系统.md",
     "八股/MySQL.md",
     "八股/面经.md",
     "八股/面试题.md",
@@ -256,7 +256,6 @@
     "八股/计算机基础/imgs/Pasted image 20240418145506.png",
     "八股/计算机基础/imgs/Pasted image 20240418142734.png",
     "八股/计算机基础/imgs",
-    "八股/imgs/Pasted image 20240417102939.png",
     "八股/特殊知识点/缓存和数据库一致性问题.md",
     "八股/特殊知识点/Hash.md",
     "数据库/缓存穿透、缓存击穿、缓存雪崩.md",
