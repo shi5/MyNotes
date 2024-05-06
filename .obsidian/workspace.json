@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "八股/计算机基础/计网.md",
+                "file": "八股/特殊知识点/Hash.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "八股/计算机基础/计网.md",
+                "file": "八股/特殊知识点/Hash.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "八股/计算机基础/计网.md",
+                "file": "八股/特殊知识点/Hash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "八股/计算机基础/计网.md",
+                "file": "八股/特殊知识点/Hash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股/计算机基础/计网.md"
+                "file": "八股/特殊知识点/Hash.md"
               }
             }
           },
@@ -223,6 +223,12 @@
   },
   "active": "e3947322dc4e2c1b",
   "lastOpenFiles": [
+    "八股/特殊知识点/imgs/Pasted image 20240506142706.png",
+    "八股/特殊知识点/imgs",
+    "八股/特殊知识点/双重检查锁.md",
+    "八股/特殊知识点/缓存和数据库一致性问题.md",
+    "八股/Redis.md",
+    "八股/特殊知识点/Hash.md",
     "八股/面经.md",
     "八股/计算机基础/计网.md",
     "八股/计算机基础/操作系统.md",
@@ -240,7 +246,6 @@
     "八股/Java面试八股/JMM详解.md",
     "12306/新知识/单例模式.md",
     "短链接/用户注册/用户名创建唯一索引.md",
-    "八股/Redis.md",
     "八股/imgs/Pasted image 20240424105039.png",
     "八股/imgs/Pasted image 20240424102831.png",
     "八股/imgs/Pasted image 20240423205816.png",
@@ -256,9 +261,6 @@
     "八股/计算机基础/imgs/Pasted image 20240418145506.png",
     "八股/计算机基础/imgs/Pasted image 20240418142734.png",
     "八股/计算机基础/imgs",
-    "八股/特殊知识点/缓存和数据库一致性问题.md",
-    "八股/特殊知识点/Hash.md",
-    "数据库/缓存穿透、缓存击穿、缓存雪崩.md",
     "八股/特殊知识点",
     "短链接/imgs",
     "八股/计算机基础",
@@ -267,7 +269,6 @@
     "八股/Java面试八股",
     "八股/imgs",
     "八股",
-    "数据库",
     "未命名.canvas"
   ]
 }
