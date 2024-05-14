@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "短链接/项目简历.md",
+                "file": "八股/面经.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -93,7 +93,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "短链接/项目简历.md",
+                "file": "八股/面经.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -116,7 +116,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.0000000000000016,
+                  "scale": 0.6554983534946927,
                   "close": true
                 }
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "短链接/项目简历.md",
+                "file": "八股/面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "短链接/项目简历.md",
+                "file": "八股/面经.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "短链接/项目简历.md"
+                "file": "八股/面经.md"
               }
             }
           },
@@ -222,10 +222,11 @@
   },
   "active": "549a05ca301db8d4",
   "lastOpenFiles": [
+    "数据库/分库分表技术.md",
     "数据库/缓存穿透、缓存击穿、缓存雪崩.md",
+    "数据库/数据库基础.md",
     "短链接/项目简历.md",
     "短链接/延迟队列和读写锁.md",
-    "数据库/分库分表技术.md",
     "八股/计算机基础/操作系统.md",
     "八股/计算机基础/计网.md",
     "八股/Java面试八股/JVM.md",
@@ -255,7 +256,6 @@
     "八股/imgs/Pasted image 20240423205511.png",
     "Java/深入java/Java Stream.md",
     "Java/深入java/方法引用.md",
-    "Java/深入java/Java Optional.md",
     "八股/计算机基础/imgs/Pasted image 20240418164041.png",
     "八股/计算机基础/imgs/Pasted image 20240418152118.png",
     "八股/计算机基础/imgs/Pasted image 20240418145506.png",
