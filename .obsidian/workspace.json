@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "短链接/项目简历.md",
+                "file": "八股/面经.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -93,7 +93,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "短链接/项目简历.md",
+                "file": "八股/面经.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "短链接/项目简历.md",
+                "file": "八股/面经.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "短链接/项目简历.md",
+                "file": "八股/面经.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "短链接/项目简历.md"
+                "file": "八股/面经.md"
               }
             }
           },
@@ -222,8 +222,8 @@
   },
   "active": "549a05ca301db8d4",
   "lastOpenFiles": [
-    "数据库/缓存穿透、缓存击穿、缓存雪崩.md",
     "短链接/项目简历.md",
+    "数据库/缓存穿透、缓存击穿、缓存雪崩.md",
     "八股/面经.md",
     "八股/计算机基础/计网.md",
     "数据库/分库分表技术.md",
