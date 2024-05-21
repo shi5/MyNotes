@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "八股/面经.md",
+                "file": "短链接/项目简历.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -93,7 +93,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "八股/面经.md",
+                "file": "短链接/项目简历.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "八股/面经.md",
+                "file": "短链接/项目简历.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "八股/面经.md",
+                "file": "短链接/项目简历.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股/面经.md"
+                "file": "短链接/项目简历.md"
               }
             }
           },
@@ -222,10 +222,10 @@
   },
   "active": "549a05ca301db8d4",
   "lastOpenFiles": [
-    "八股/计算机基础/计网.md",
     "八股/面经.md",
-    "短链接/项目简历.md",
     "数据库/缓存穿透、缓存击穿、缓存雪崩.md",
+    "八股/计算机基础/计网.md",
+    "短链接/项目简历.md",
     "数据库/分库分表技术.md",
     "数据库/数据库基础.md",
     "短链接/延迟队列和读写锁.md",
