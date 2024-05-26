@@ -362,6 +362,13 @@ public class ReentrantLock implements Lock, java.io.Serializable {}
 
 ## ThreadLocal
 
+常见方法
+
+- set()
+- get()
+- remove()
+
+
 ### ThreadLocal有什么用
 
 通常情况下，我们创建的变量可以被任何一个线程访问并修改的。
@@ -378,6 +385,8 @@ public class ReentrantLock implements Lock, java.io.Serializable {}
 
 **每个`Thread`中都具备一个`ThreadLocalMap`，而`ThreadLocalMap`可以存储以`ThreadLocal`为 key ，Object 对象为 value 的键值对。**
 
+> `ThreadLocalMap`解决哈希冲突的办法是线性探测 
+
 ### ThreadLocal内存泄露问题
 
 `ThreadLocalMap` 中使用的 key 为 `ThreadLocal` 的弱引用，而 value 是强引用。所以，如果 `ThreadLocal` 没有被外部强引用的情况下，在垃圾回收的时候，key 会被清理掉，而 value 不会被清理掉。
@@ -385,6 +394,10 @@ public class ReentrantLock implements Lock, java.io.Serializable {}
 这样`ThreadLocalMap` 就会出现key为null 的 Entry，导致value 永远无法被 GC 回收，这个时候就可能会产生内存泄露。
 
 `ThreadLocalMap` 实现中已经考虑了这种情况，在调用 `set()`、`get()`、`remove()` 方法的时候，会清理掉 key 为 null 的记录。使用完 `ThreadLocal`方法后最好手动调用`remove()`方法
+
+### ThreadLocal内存释放
+
+![[Pasted image 20240526154649.png]]
 
 ## 线程池
 
