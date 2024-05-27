@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "549a05ca301db8d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/深入java/函数式接口.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e3947322dc4e2c1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/缓存穿透、缓存击穿、缓存雪崩.md",
+                "file": "八股/Java面试八股/JVM.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -80,8 +67,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "0caedac4d6a4f85c",
@@ -94,7 +80,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Java/深入java/函数式接口.md",
+                "file": "八股/Java面试八股/JVM.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -143,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/深入java/函数式接口.md",
+                "file": "八股/Java面试八股/JVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/深入java/函数式接口.md",
+                "file": "八股/Java面试八股/JVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/深入java/函数式接口.md"
+                "file": "八股/Java面试八股/JVM.md"
               }
             }
           },
@@ -221,22 +207,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "549a05ca301db8d4",
+  "active": "e3947322dc4e2c1b",
   "lastOpenFiles": [
-    "数据库/分库分表技术.md",
+    "八股/Java面试八股/imgs/Pasted image 20240527113421.png",
+    "八股/Java面试八股/JMM详解.md",
+    "八股/Java面试八股/Java基础.md",
+    "八股/Java面试八股/Java并发.md",
+    "八股/Redis.md",
+    "八股/MySQL.md",
+    "八股/面经.md",
+    "八股/常用库/Lombok.md",
+    "八股/常用库/hutool.md",
     "数据库/缓存穿透、缓存击穿、缓存雪崩.md",
+    "Java/深入java/函数式接口.md",
+    "数据库/分库分表技术.md",
     "数据库/数据库基础.md",
     "短链接/延迟队列和读写锁.md",
     "短链接/项目简历.md",
     "短链接/用户注册/用户名创建唯一索引.md",
-    "八股/面经.md",
-    "八股/MySQL.md",
-    "八股/Redis.md",
     "八股/Spring.md",
-    "八股/Java面试八股/Java并发.md",
-    "八股/Java面试八股/Java基础.md",
     "八股/Java面试八股/Java集合.md",
-    "八股/Java面试八股/JMM详解.md",
     "八股/Java面试八股/JVM.md",
     "八股/特殊知识点/Hash.md",
     "八股/Java面试八股/imgs/Pasted image 20240526154649.png",
@@ -249,14 +239,11 @@
     "八股/计算机基础/imgs/Pasted image 20240429171034.png",
     "八股/面试题.md",
     "Java/深入java/并发编程.md",
-    "Deep Learning.md",
-    "12306/新知识/单例模式.md",
     "八股/imgs/Pasted image 20240424105039.png",
     "八股/imgs/Pasted image 20240424102831.png",
     "八股/imgs/Pasted image 20240423205816.png",
     "八股/imgs/Pasted image 20240423205516.png",
     "八股/imgs/Pasted image 20240423205511.png",
-    "Java/深入java/Java Stream.md",
     "八股/计算机基础/imgs/Pasted image 20240418164041.png",
     "八股/计算机基础/imgs/Pasted image 20240418152118.png",
     "八股/计算机基础/imgs",
