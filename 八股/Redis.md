@@ -179,6 +179,23 @@ Redis 采用的是 **定期删除+惰性/懒汉式删除** 。
 > **volatile**：在设置了过期时间的Key中挑选
 > **allkeys**：在所有Key中挑选
 
+#### Redis实现的lru
+
+近似lru：
+- 存储时间戳
+- 每次随机选取5个（可设定），淘汰最久没使用的
+- 无法解决缓存污染
+
+#### Redis实现的lfu
+
+LFU 算法相比于 LRU 算法的实现，多记录了「数据的访问频次」的信息。
+
+Redis对象头的 24 bits 的 lru 字段被分成两段来存储，高 16bit 存储 ldt(Last Decrement Time)，低 8bit 存储 logc(Logistic Counter)
+
+ldt记录时间戳
+logc记录**使用频率**，根据这个值来淘汰
+
+logc的变化会考虑访问的时间差（和时间戳作比较）对logc进行**衰减**，同时再按照一定概率增加 logc 的值
 ## Redis性能优化
 
 ### 使用批量操作减少网络传输
