@@ -399,6 +399,10 @@ public class ReentrantLock implements Lock, java.io.Serializable {}
 
 ![[Pasted image 20240526154649.png]]
 
+### 为什么`ThreadLocalMap` 中使用的 key 为 `ThreadLocal` 的弱引用
+
+假设是强引用的话，ThreadLocal对象不再被使用了——`threadLocal==null`，因为`ThreadLocalMap`中始终保持着对 `ThreadLocal`的强引用，那么这个ThreadLocal对象永远不会被回收，也就发生了内存泄漏
+
 ## 线程池
 
 ### 线程池是什么
