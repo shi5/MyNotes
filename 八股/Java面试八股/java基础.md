@@ -103,6 +103,10 @@ System.out.println(i1==i2); // false, `Integer i2 = new Integer(40)` 会直接�
 
 ## String类型
 
+JVM里面的任何字符串资源都是**Unicode**，就是说，任何String类型的数据都是Unicode编码。
+
+**char 类型描述了 UTF-16 编码中的一个代码单元。** **两个连续代码单元**可以表示任一UTF-16编码
+
 ### String底层实现
 
 jdk9之前：`char[]`
