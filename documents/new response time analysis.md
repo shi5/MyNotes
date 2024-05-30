@@ -72,3 +72,9 @@
   1. 在$\mathcal{T}$执行$\mathbb{R}$，如果可以调度，返回OK；否则，计算每个$\tau_i\in\mathcal{T}$的$MAX_i(x)$，$0\le x\le T_i$
   2. 用$MAX_i(x)$来作为carry-in job $J_i$的workload上界，$x$设为$J_i$的周期和busy period的重叠长度。使用该值重新测试$\mathcal{T}$的可调度性
   3. 如果$\mathcal{T}$可调度，返回OK，否则重新计算$MAX_i(x)$。如果$MAX_i(x)$存在变化，重新执行2，否则返回failure
+
+
+## EPE-ZLL
+
+>2021--Excluding Parallel Execution to Improve Global Fixed Priority Response Time Analysis
+
