@@ -1,3 +1,6 @@
+> 还是从深度学习模型架构思考idea吧
+> 看了最新的GFP论文，感慨现在启发式的算法越来越深，越来越复杂，很难入手
+
 # 一些想法
 
 - 将system hazard作为模型的一个参数进行训练优化,初始的system hazard可由heuristic算法生成。（system hazard定义为$Θ(τ,P,m)=\underset{τ_i∈τ}{max}⁡(R_i/T_i )$)
