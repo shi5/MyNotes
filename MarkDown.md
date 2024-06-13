@@ -1,6 +1,6 @@
 # 速查表
 
-![速查表](./pics/速查表.png)
+![速查表](速查表.png)
 
 ## 标题2
 
@@ -35,7 +35,7 @@
 
 ## 图片
 
-![截图](./pics/cartoon.jpg "花园之外")
+![截图](cartoon.jpg "花园之外")
 ![网络图片](https://learn.microsoft.com/zh-cn/microsoft-edge/devtools-guide-chromium/css/images/inspect-tool-button.msft.png "微软")
 
 ## 超链接

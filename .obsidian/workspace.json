@@ -13,14 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "documents/ideas.md",
+                "file": "MarkDown.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "0c1ff6d34dd75a18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "消息队列/消息队列需求分析.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8026a4339734c1e1",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -80,7 +104,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "documents/ideas.md",
+                "file": "消息队列/消息队列需求分析.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "documents/ideas.md",
+                "file": "消息队列/消息队列需求分析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "documents/ideas.md",
+                "file": "消息队列/消息队列需求分析.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "documents/ideas.md"
+                "file": "消息队列/消息队列需求分析.md"
               }
             }
           },
@@ -207,11 +231,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e3947322dc4e2c1b",
+  "active": "8026a4339734c1e1",
   "lastOpenFiles": [
+    "MarkDown.md",
+    "消息队列/消息队列需求分析.md",
+    "documents/ideas.md",
+    "消息队列",
     "documents/new response time analysis.md",
     "documents/2021_Priority Assignment Using Machine Learning.md",
-    "documents/ideas.md",
     "八股/Java面试八股/JVM.md",
     "八股/Java面试八股/imgs/Pasted image 20240531155936.png",
     "八股/Java面试八股/Java并发.md",
@@ -243,8 +270,6 @@
     "短链接/延迟队列和读写锁.md",
     "短链接/用户注册/用户名创建唯一索引.md",
     "八股/Spring.md",
-    "八股/Java面试八股/Java集合.md",
-    "八股/特殊知识点/Hash.md",
     "八股/特殊知识点/imgs",
     "八股/计算机基础/imgs",
     "八股/特殊知识点",
@@ -254,7 +279,6 @@
     "八股/常用库",
     "八股/Java面试八股",
     "八股/imgs",
-    "八股",
     "未命名.canvas"
   ]
 }
