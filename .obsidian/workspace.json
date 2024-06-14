@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "leetcode.md",
+                "file": "消息队列/需求.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -80,7 +80,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "leetcode.md",
+                "file": "消息队列/需求.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "leetcode.md",
+                "file": "消息队列/需求.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "leetcode.md",
+                "file": "消息队列/需求.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "leetcode.md"
+                "file": "消息队列/需求.md"
               }
             }
           },
@@ -209,6 +209,8 @@
   },
   "active": "e3947322dc4e2c1b",
   "lastOpenFiles": [
+    "leetcode.md",
+    "消息队列/需求.md",
     "MarkDown.md",
     "消息队列/消息队列需求分析.md",
     "documents/ideas.md",
@@ -244,8 +246,6 @@
     "Java/深入java/函数式接口.md",
     "数据库/数据库基础.md",
     "短链接/延迟队列和读写锁.md",
-    "短链接/用户注册/用户名创建唯一索引.md",
-    "八股/Spring.md",
     "八股/特殊知识点/imgs",
     "八股/计算机基础/imgs",
     "八股/特殊知识点",
