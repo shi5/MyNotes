@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3d38a624d106d6ba",
+        "id": "eee213c9c2a18870",
         "type": "tabs",
         "children": [
           {
-            "id": "e3947322dc4e2c1b",
+            "id": "17039426632de0f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "消息队列/需求.md",
+                "file": "八股/设计模式.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "函数式编程",
+                "query": "设计模式",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +80,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "消息队列/需求.md",
+                "file": "八股/设计模式.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "消息队列/需求.md",
+                "file": "八股/设计模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "消息队列/需求.md",
+                "file": "八股/设计模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "消息队列/需求.md"
+                "file": "八股/设计模式.md"
               }
             }
           },
@@ -207,10 +207,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e3947322dc4e2c1b",
+  "active": "17039426632de0f6",
   "lastOpenFiles": [
-    "leetcode.md",
+    "八股/imgs/Pasted image 20240621160708.png",
+    "八股/面经.md",
+    "八股/设计模式.md",
     "消息队列/需求.md",
+    "RPC框架.md",
+    "leetcode.md",
     "MarkDown.md",
     "消息队列/消息队列需求分析.md",
     "documents/ideas.md",
@@ -237,15 +241,11 @@
     "八股/Java面试八股/Java基础.md",
     "八股/计算机基础/计网.md",
     "八股/计算机基础/imgs/Pasted image 20240529110405.png",
-    "八股/面经.md",
     "八股/Redis.md",
     "八股/Java面试八股/JMM详解.md",
     "八股/MySQL.md",
     "八股/常用库/Lombok.md",
     "八股/常用库/hutool.md",
-    "Java/深入java/函数式接口.md",
-    "数据库/数据库基础.md",
-    "短链接/延迟队列和读写锁.md",
     "八股/特殊知识点/imgs",
     "八股/计算机基础/imgs",
     "八股/特殊知识点",
