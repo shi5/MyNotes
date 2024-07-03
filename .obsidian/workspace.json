@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "eee213c9c2a18870",
+        "id": "711e953e2f3cf1ae",
         "type": "tabs",
         "children": [
           {
-            "id": "17039426632de0f6",
+            "id": "b3c80ec4f747401b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "八股/设计模式.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -80,7 +75,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "八股/设计模式.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +123,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "八股/设计模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +139,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "八股/设计模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,9 +160,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "八股/设计模式.md"
-              }
+              "state": {}
             }
           },
           {
@@ -207,12 +197,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "17039426632de0f6",
+  "active": "b3c80ec4f747401b",
   "lastOpenFiles": [
+    "消息队列/结构.md",
+    "消息队列/需求.md",
+    "八股/设计模式.md",
     "八股/imgs/Pasted image 20240621160708.png",
     "八股/面经.md",
-    "八股/设计模式.md",
-    "消息队列/需求.md",
     "RPC框架.md",
     "leetcode.md",
     "MarkDown.md",
@@ -240,7 +231,6 @@
     "短链接/imgs/Pasted image 20240529210808.png",
     "八股/Java面试八股/Java基础.md",
     "八股/计算机基础/计网.md",
-    "八股/计算机基础/imgs/Pasted image 20240529110405.png",
     "八股/Redis.md",
     "八股/Java面试八股/JMM详解.md",
     "八股/MySQL.md",
