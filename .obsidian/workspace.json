@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "711e953e2f3cf1ae",
+        "id": "7d3be98898e22544",
         "type": "tabs",
         "children": [
           {
-            "id": "b3c80ec4f747401b",
+            "id": "572eb8affc4c65a1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "八股/Java面试八股/Java并发.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -45,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "设计模式",
+                "query": "Executors",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,7 +67,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "0caedac4d6a4f85c",
@@ -75,6 +81,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "八股/Java面试八股/Java并发.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -123,6 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "八股/Java面试八股/Java并发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,6 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "八股/Java面试八股/Java并发.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +169,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "八股/Java面试八股/Java并发.md"
+              }
             }
           },
           {
@@ -197,7 +208,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b3c80ec4f747401b",
+  "active": "572eb8affc4c65a1",
   "lastOpenFiles": [
     "消息队列/结构.md",
     "消息队列/需求.md",
