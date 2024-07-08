@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "消息队列/需求.md",
+                "file": "八股/特殊知识点/Hash.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -80,7 +80,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "消息队列/需求.md",
+                "file": "八股/特殊知识点/Hash.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "消息队列/需求.md",
+                "file": "八股/特殊知识点/Hash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "消息队列/需求.md",
+                "file": "八股/特殊知识点/Hash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "消息队列/需求.md"
+                "file": "八股/特殊知识点/Hash.md"
               }
             }
           },
@@ -209,8 +209,10 @@
   },
   "active": "572eb8affc4c65a1",
   "lastOpenFiles": [
-    "八股/RocketMQ.md",
+    "八股/特殊知识点/双重检查锁.md",
+    "八股/特殊知识点/缓存和数据库一致性问题.md",
     "消息队列/需求.md",
+    "八股/RocketMQ.md",
     "八股/Java面试八股/Java并发.md",
     "消息队列/结构.md",
     "八股/设计模式.md",
@@ -244,8 +246,6 @@
     "八股/计算机基础/计网.md",
     "八股/Redis.md",
     "八股/Java面试八股/JMM详解.md",
-    "八股/MySQL.md",
-    "八股/常用库/Lombok.md",
     "八股/特殊知识点/imgs",
     "八股/计算机基础/imgs",
     "八股/特殊知识点",
