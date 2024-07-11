@@ -14,7 +14,9 @@
 
 - 为什么要采用mmap而不是sendfile，而Kafka是采用sendfile（*可以继续深入研究*
 	- 零拷贝包括两种方式，RocketMQ 使用**mmap+write**，因单个消息是小块数据，小块数据传输的要求效果比 sendfile 方式好
+		- mmap支持NIO，sendfile只能BIO传输，那么NIO的特性本身就会对数据块小、请求个数多的传输需求有很好的支持。
 	- RocketMQ一个CommitLog会有多个Topic的消息，服务端需要做查找过滤，也就是需要对磁盘文件读取出来的结果做加工再返回，而Kafka一个segment文件是partition级别的，不需要处理直接返回给客户端就行，所以用sendfile会更合适
+![[QQ_1720688553261.png]]
 
 
 ## 获取消息方式
