@@ -11,6 +11,8 @@
 
 - 页缓存的不确定性和mmap的惰性加载（实际使用才真正加载）如何解决
 	- **文件预分配**和**文件预热**。
+		- 文件预分配：
+		- 文件预热：
 
 - 为什么要采用mmap而不是sendfile，而Kafka是采用sendfile（*可以继续深入研究*
 	- 零拷贝包括两种方式，RocketMQ 使用**mmap+write**，因单个消息是小块数据，小块数据传输的要求效果比 sendfile 方式好
@@ -18,6 +20,10 @@
 	- RocketMQ一个CommitLog会有多个Topic的消息，服务端需要做查找过滤，也就是需要对磁盘文件读取出来的结果做加工再返回，而Kafka一个segment文件是partition级别的，不需要处理直接返回给客户端就行，所以用sendfile会更合适
 ![[QQ_1720688553261.png]]
 
+- 异步刷盘可使用transientStorePool
+	- transientStorePool使用堆外内存（直接内存），速度更快，RokcetMQ引入该机制是为了提供一种内存锁定，将当前堆外内存一直锁定在内存中，避免被进程将内存交换到磁盘中
+	- mappedByteBuffer使用pagecache，写入速度受限于操作系统管理和调度
+	- 有了 TransientStorePool 的存在，消息可以批量写入内存缓冲区，RocketMQ 也就可以有效地控制何时以及如何将脏页（Dirty Page，即已修改但还未写入磁盘的内存页）刷写到磁盘，**避免了操作系统自动进行的随机性、不可预测的脏页刷写操作**，从而提升了**I/O**性能，特别是在大量写入请求的场景下。
 
 ## 获取消息方式
 
