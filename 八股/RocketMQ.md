@@ -22,6 +22,10 @@
 	- RocketMQ一个CommitLog会有多个Topic的消息，服务端需要做查找过滤，也就是需要对磁盘文件读取出来的结果做加工再返回，而Kafka一个segment文件是partition级别的，不需要处理直接返回给客户端就行，所以用sendfile会更合适
 ![[QQ_1720688553261.png]]
 
+- 如何释放MappedByteBuffer?
+	- ![[QQ_1721268686007.png]]
+	- RocketMQ中采用第四种方法，嵌套递归获取directByteBuffer的最内部的attachment或者viewedBuffer方法获取directByteBuffer的Cleaner对象，然后调用cleaner.clean方法，进行释放资源
+
 - 异步刷盘可使用transientStorePool
 	- transientStorePool使用堆外内存（直接内存），速度更快，RokcetMQ引入该机制是为了提供一种内存锁定，将当前堆外内存一直锁定在内存中，避免被进程将内存交换到磁盘中
 	- mappedByteBuffer使用pagecache，写入速度受限于操作系统管理和调度
