@@ -13,14 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "八股/RocketMQ.md",
+                "file": "八股/项目简历.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "9b7dd1a816c20eb6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,7 +91,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "八股/RocketMQ.md",
+                "file": "八股/项目简历.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "八股/RocketMQ.md",
+                "file": "八股/项目简历.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "八股/RocketMQ.md",
+                "file": "八股/项目简历.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股/RocketMQ.md"
+                "file": "八股/项目简历.md"
               }
             }
           },
@@ -207,14 +218,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "572eb8affc4c65a1",
+  "active": "9b7dd1a816c20eb6",
   "lastOpenFiles": [
+    "八股/项目简历",
+    "八股/Spring.md",
+    "八股/Redis.md",
+    "八股/MySQL.md",
+    "八股/设计模式.md",
+    "八股/面经.md",
+    "八股/RocketMQ.md",
     "八股/imgs/QQ_1721268686007.png",
     "八股/imgs/QQ_1720688553261.png",
     "消息队列/需求.md",
-    "八股/RocketMQ.md",
     "MarkDown.md",
-    "八股/设计模式.md",
     "12306/新知识/策略模式.md",
     "八股/imgs/Pasted image 20240709102049.png",
     "12306/新知识/单例模式.md",
@@ -224,7 +240,6 @@
     "八股/Java面试八股/Java并发.md",
     "消息队列/结构.md",
     "八股/imgs/Pasted image 20240621160708.png",
-    "八股/面经.md",
     "RPC框架.md",
     "leetcode.md",
     "消息队列/消息队列需求分析.md",
@@ -237,15 +252,11 @@
     "数据库/缓存穿透、缓存击穿、缓存雪崩.md",
     "数据库/分库分表技术.md",
     "documents/priority assignment.md",
-    "documents/Evaluation of existing schedulability tests for global EDF.md",
-    "documents/实时调度.md",
-    "短链接/项目简历.md",
     "短链接/imgs/Pasted image 20240530153127.png",
     "短链接/imgs/Pasted image 20240530152958.png",
     "短链接/imgs/Pasted image 20240530150749.png",
     "短链接/imgs/Pasted image 20240530150628.png",
     "短链接/imgs/Pasted image 20240530150614.png",
-    "短链接/imgs/Pasted image 20240529211213.png",
     "八股/特殊知识点/imgs",
     "八股/计算机基础/imgs",
     "八股/特殊知识点",
