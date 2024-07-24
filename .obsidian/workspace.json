@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "消息队列/问题.md",
+                "file": "消息队列/与RocketMQ对比.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -80,7 +80,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "消息队列/问题.md",
+                "file": "消息队列/与RocketMQ对比.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "消息队列/问题.md",
+                "file": "消息队列/与RocketMQ对比.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "消息队列/问题.md",
+                "file": "消息队列/与RocketMQ对比.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "消息队列/问题.md"
+                "file": "消息队列/与RocketMQ对比.md"
               }
             }
           },
@@ -209,8 +209,9 @@
   },
   "active": "572eb8affc4c65a1",
   "lastOpenFiles": [
-    "消息队列/需求.md",
     "消息队列/问题.md",
+    "消息队列/与RocketMQ对比.md",
+    "消息队列/需求.md",
     "八股/项目简历.md",
     "八股/RocketMQ.md",
     "RPC框架.md",
@@ -241,7 +242,6 @@
     "八股/Java面试八股/JVM.md",
     "八股/Java面试八股/imgs/Pasted image 20240531155936.png",
     "数据库/缓存穿透、缓存击穿、缓存雪崩.md",
-    "数据库/分库分表技术.md",
     "短链接/imgs/Pasted image 20240530153127.png",
     "短链接/imgs/Pasted image 20240530152958.png",
     "短链接/imgs/Pasted image 20240530150749.png",
