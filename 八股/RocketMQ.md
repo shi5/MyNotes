@@ -43,3 +43,7 @@ Consumer 端的两种消费模式（Push/Pull）都是基于拉模式来获取�
 ## 消息发送
 
 RocketMQ消息队列中支持通信的方式主要有同步(sync)、异步(async)、单向(oneway) 三种
+
+## 重复消费
+
+![[Pasted image 20240726161547.png]]
