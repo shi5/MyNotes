@@ -16,6 +16,11 @@
 		- 文件预分配：
 		- 文件预热：
 
+- 针对mmap的优化
+	- 文件预分配：创建下一个MappedFile时，会将下下个创建好（将请求放入在AllocateMappedFileService服务线程）
+	- mlock：其可以将进程使用的部分或者全部的地址空间锁定在物理内存中，防止其被交换到swap空间。
+	- madvise： mmap映射后不会将文件立马加载到内存，而是使用时加载，RocketMQ的做法是，在做Mmap内存映射的同时进行madvise系统调用，目的是使OS做一次内存映射后对应的文件数据尽可能多的预加载至内存中，从而达到内存预热的效果。
+
 - 为什么要采用mmap而不是sendfile，而Kafka是采用sendfile（*可以继续深入研究*
 	- 零拷贝包括两种方式，RocketMQ 使用**mmap+write**，因单个消息是小块数据，小块数据传输的要求效果比 sendfile 方式好
 		- mmap支持NIO，sendfile只能BIO传输，那么NIO的特性本身就会对数据块小、请求个数多的传输需求有很好的支持。
