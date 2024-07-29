@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "八股/Java面试八股/项目简历/消息队列简历.md",
+                "file": "八股/项目简历/消息队列简历.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -93,7 +93,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "八股/Java面试八股/项目简历/消息队列简历.md",
+                "file": "八股/项目简历/消息队列简历.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "八股/Java面试八股/项目简历/消息队列简历.md",
+                "file": "八股/项目简历/消息队列简历.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "八股/Java面试八股/项目简历/消息队列简历.md",
+                "file": "八股/项目简历/消息队列简历.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股/Java面试八股/项目简历/消息队列简历.md"
+                "file": "八股/项目简历/消息队列简历.md"
               }
             }
           },
@@ -222,23 +222,24 @@
   },
   "active": "572eb8affc4c65a1",
   "lastOpenFiles": [
+    "八股/Netty.md",
     "八股/RocketMQ.md",
-    "八股/Java面试八股/项目简历/消息队列简历.md",
-    "八股/Java面试八股/项目简历/imgs/QQ_1722225792949.png",
-    "八股/Java面试八股/项目简历/imgs/Pasted image 20240729114409.png",
-    "八股/Java面试八股/项目简历/imgs/Pasted image 20240729113440.png",
-    "八股/Java面试八股/项目简历/imgs/Pasted image 20240729113431.png",
-    "八股/Java面试八股/项目简历/imgs/Pasted image 20240729113420.png",
+    "八股/项目简历/消息队列简历.md",
+    "八股/项目简历/imgs/QQ_1722225792949.png",
+    "八股/项目简历/imgs/Pasted image 20240729114409.png",
+    "八股/项目简历/imgs/Pasted image 20240729113440.png",
+    "八股/项目简历/imgs/Pasted image 20240729113431.png",
+    "八股/项目简历/imgs/Pasted image 20240729113420.png",
     "八股/计算机基础/操作系统.md",
     "八股/Java面试八股/项目简历/[RocketMQ.md",
-    "八股/Java面试八股/项目简历/imgs/Pasted image 20240728165045.png",
-    "八股/Java面试八股/项目简历/imgs/Pasted image 20240728164840.png",
-    "八股/Java面试八股/项目简历/imgs/Pasted image 20240728143325.png",
+    "八股/项目简历/imgs/Pasted image 20240728165045.png",
+    "八股/项目简历/imgs/Pasted image 20240728164840.png",
+    "八股/项目简历/imgs/Pasted image 20240728143325.png",
     "八股/Java面试八股/项目简历/imgs/Pasted image 20240728133554.png",
-    "八股/Java面试八股/项目简历/imgs",
+    "八股/项目简历/imgs",
     "八股/imgs/Pasted image 20240726161547.png",
-    "八股/Java面试八股/项目简历/短链接简历.md",
-    "八股/Java面试八股/项目简历",
+    "八股/项目简历/短链接简历.md",
+    "八股/项目简历",
     "八股/Java面试八股/JVM.md",
     "消息队列/与RocketMQ对比.md",
     "消息队列/问题.md",
