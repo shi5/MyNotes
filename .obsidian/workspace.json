@@ -19,6 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5e5455e9cdf337c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "八股/RocketMQ.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -209,14 +222,15 @@
   },
   "active": "572eb8affc4c65a1",
   "lastOpenFiles": [
+    "八股/RocketMQ.md",
+    "八股/Java面试八股/项目简历/消息队列简历.md",
+    "八股/Java面试八股/项目简历/[RocketMQ.md",
     "八股/Java面试八股/项目简历/imgs/Pasted image 20240728165045.png",
     "八股/Java面试八股/项目简历/imgs/Pasted image 20240728164840.png",
     "八股/Java面试八股/项目简历/imgs/Pasted image 20240728143325.png",
     "八股/Java面试八股/项目简历/imgs/Pasted image 20240728133554.png",
     "八股/Java面试八股/项目简历/imgs",
-    "八股/RocketMQ.md",
     "八股/imgs/Pasted image 20240726161547.png",
-    "八股/Java面试八股/项目简历/消息队列简历.md",
     "八股/Java面试八股/项目简历/短链接简历.md",
     "八股/Java面试八股/项目简历",
     "八股/Java面试八股/JVM.md",
@@ -248,7 +262,6 @@
     "消息队列",
     "documents/new response time analysis.md",
     "八股/Java面试八股/imgs/Pasted image 20240531155936.png",
-    "短链接/imgs/Pasted image 20240530153127.png",
     "八股/特殊知识点/imgs",
     "八股/计算机基础/imgs",
     "八股/特殊知识点",
