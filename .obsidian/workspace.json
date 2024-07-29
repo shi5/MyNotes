@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +93,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "八股/RocketMQ.md",
+                "file": "八股/Java面试八股/项目简历/消息队列简历.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -143,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "八股/RocketMQ.md",
+                "file": "八股/Java面试八股/项目简历/消息队列简历.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "八股/RocketMQ.md",
+                "file": "八股/Java面试八股/项目简历/消息队列简历.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股/RocketMQ.md"
+                "file": "八股/Java面试八股/项目简历/消息队列简历.md"
               }
             }
           },
@@ -221,11 +220,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5e5455e9cdf337c3",
+  "active": "572eb8affc4c65a1",
   "lastOpenFiles": [
+    "八股/RocketMQ.md",
     "八股/Java面试八股/项目简历/消息队列简历.md",
     "八股/Java面试八股/项目简历/imgs/QQ_1722225792949.png",
-    "八股/RocketMQ.md",
     "八股/Java面试八股/项目简历/imgs/Pasted image 20240729114409.png",
     "八股/Java面试八股/项目简历/imgs/Pasted image 20240729113440.png",
     "八股/Java面试八股/项目简历/imgs/Pasted image 20240729113431.png",

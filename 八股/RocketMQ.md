@@ -20,6 +20,10 @@
 	- 文件预分配：创建下一个MappedFile时，会将下下个创建好（将请求放入在AllocateMappedFileService服务线程）
 	- mlock：其可以将进程使用的部分或者全部的地址空间锁定在物理内存中，防止其被交换到swap空间。
 	- madvise： mmap映射后不会将文件立马加载到内存，而是使用时加载，RocketMQ的做法是，在做Mmap内存映射的同时进行madvise系统调用，目的是使OS做一次内存映射后对应的文件数据尽可能多的预加载至内存中，从而达到内存预热的效果。
+	- 使用引用数来管理MappedByteBuffer的释放，MappedByteBuffer的回收是由JVM来决定的，回收时间是无法保证的。
+
+> FileChannel在调用了map方法，进行内存映射得到MappedByteBuffer，但是没有提供unmap方法()，释放内存。事实上，unmap方法是在FileChannelImpl类里实现的，是个私有方法。在finalize延迟的时候，unmap方法无法调用，在删除文件的时候就会因为内存未释放而失败。不过可以通过显示的调用unmap方法来释放内存(本质是调用**sun.misc.Cleaner的clean**方法）。
+
 
 - 为什么要采用mmap而不是sendfile，而Kafka是采用sendfile（*可以继续深入研究*
 	- 零拷贝包括两种方式，RocketMQ 使用**mmap+write**，因单个消息是小块数据，小块数据传输的要求效果比 sendfile 方式好
@@ -29,7 +33,7 @@
 
 - 如何释放MappedByteBuffer?
 	- ![[QQ_1721268686007.png]]
-	- RocketMQ中采用第四种方法，嵌套递归获取directByteBuffer的最内部的attachment或者viewedBuffer方法获取directByteBuffer的Cleaner对象，然后调用cleaner.clean方法，进行释放资源
+	- RocketMQ中采用**第二种方法**，嵌套递归获取directByteBuffer的最内部的attachment或者viewedBuffer方法获取directByteBuffer的Cleaner对象，然后调用cleaner.clean方法，进行释放资源
 
 - 异步刷盘可使用transientStorePool
 	- transientStorePool使用堆外内存（直接内存），速度更快，RokcetMQ引入该机制是为了提供一种内存锁定，将当前堆外内存一直锁定在内存中，避免被进程将内存交换到磁盘中
