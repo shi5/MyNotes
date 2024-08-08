@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "八股/RocketMQ.md",
+                "file": "八股/项目简历/短链接简历.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "八股/项目简历/消息队列简历.md",
+                "file": "八股/项目简历/短链接简历.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "八股/项目简历/消息队列简历.md",
+                "file": "八股/项目简历/短链接简历.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "八股/项目简历/消息队列简历.md",
+                "file": "八股/项目简历/短链接简历.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "八股/项目简历/消息队列简历.md"
+                "file": "八股/项目简历/短链接简历.md"
               }
             }
           },
@@ -221,7 +221,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "18d70748681c8645",
+  "active": "5e5455e9cdf337c3",
   "lastOpenFiles": [
     "八股/项目简历/消息队列简历.md",
     "八股/RocketMQ.md",
